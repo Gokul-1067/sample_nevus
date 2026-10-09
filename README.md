@@ -48,11 +48,10 @@ You can also open `index.html` directly in any web browser (Google Chrome, Micro
 
 | Page | File | Description |
 |---|---|---|
-| **Home** | `index.html` | High-impact hero with 22+ years milestone, integrated architecture graphic, credibility highlights, 6 service overviews, equipment showcase, target sectors, backup continuity feature, installation gallery preview, and consultation CTA. |
+| **Home** | `index.html` | High-impact hero with 22+ years milestone, integrated architecture graphic, credibility highlights, 6 service overviews, equipment showcase, target sectors, backup continuity feature, and consultation CTA. |
 | **About Us** | `about.html` | Corporate background, 22+ years evolution, 4-stage integration methodology, full system topology diagram, South India operational reach, and core distinctions. |
 | **Services** | `services.html` | In-depth breakdown of all 6 core integration disciplines: scope of work, practical problems addressed, target organisations, and equipment synergy. |
 | **Products & Tech** | `products.html` | Showcase of 8 equipment categories NI integrates (cameras, NVRs, biometrics, EPABX, switches, Wi-Fi, racks, AV gear). Includes interactive category filter and explicit notice that NI is an integration partner, not a retail store. |
-| **Gallery** | `gallery.html` | Illustrative installation environments across 6 technical categories (control rooms, server racks, biometric portals, PBX desks, atrium displays, backup vaults) with interactive category filter and full-screen lightbox modal. |
 | **Trust & Readiness** | `testimonials.html` | Rigorous corporate governance page detailing client confidentiality, 3-step project handover protocol, and an elegant configurable container for formal client sign-offs (strictly avoiding fabricated reviews). |
 | **Careers** | `careers.html` | Welcoming overview of field engineering in South India, 4 representative career pathways (surveillance, cabling, EPABX, maintenance), and an interactive frontend demo talent interest form. |
 | **Contact** | `contact.html` | Configurable operational contact channels across South India, an interactive multi-field consultation enquiry form with frontend validation and non-misleading demo feedback modal, plus an integration FAQ accordion. |
@@ -70,11 +69,10 @@ You can also open `index.html` directly in any web browser (Google Chrome, Micro
 - **Bespoke Visual Vector Diagrams:**
   - Dedicated, high-detail SVG architecture drawings and equipment diagrams for every service category and technology domain. Zero external image dependencies required to render smoothly.
 - **Micro-Interactions & Motion:**
-  - Sticky glassmorphic navigation header (`backdrop-filter: blur(14px)`).
+  - Spacious, refined glassmorphic navigation header with balanced spacing, sticky transitions, and mobile drawer.
   - Scroll-triggered reveal animations via `IntersectionObserver`.
   - Accessible mobile drawer with focus management and ARIA states.
-  - Interactive category filtering tabs on Products and Gallery pages.
-  - Interactive image lightbox viewer with keyboard `Escape` navigation.
+  - Interactive category filtering tabs on Products page.
   - Interactive FAQ accordion on Contact page.
   - Validated enquiry form with a clear demonstration confirmation dialog.
   - Full support for `prefers-reduced-motion: reduce`.

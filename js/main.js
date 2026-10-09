@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNavigation();
   initScrollAnimations();
   initCounterAnimations();
-  initGalleryFiltering();
-  initLightboxModal();
   initProductFiltering();
   initFaqAccordion();
   initDemoFormValidation();
@@ -161,91 +159,7 @@ function initCounterAnimations() {
 }
 
 /* --------------------------------------------------------------------------
- * 5. GALLERY CATEGORY FILTERING
- * -------------------------------------------------------------------------- */
-function initGalleryFiltering() {
-  const filterBtns = document.querySelectorAll('.gallery-filter-btn');
-  const galleryItems = document.querySelectorAll('.gallery-item');
-
-  if (!filterBtns.length || !galleryItems.length) return;
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filterCategory = btn.getAttribute('data-filter');
-
-      galleryItems.forEach(item => {
-        const itemCategory = item.getAttribute('data-category');
-        if (filterCategory === 'all' || itemCategory === filterCategory) {
-          item.style.display = 'block';
-          setTimeout(() => {
-            item.style.opacity = '1';
-            item.style.transform = 'scale(1)';
-          }, 20);
-        } else {
-          item.style.opacity = '0';
-          item.style.transform = 'scale(0.95)';
-          setTimeout(() => {
-            item.style.display = 'none';
-          }, 200);
-        }
-      });
-    });
-  });
-}
-
-/* --------------------------------------------------------------------------
- * 6. LIGHTBOX MODAL VIEWER
- * -------------------------------------------------------------------------- */
-function initLightboxModal() {
-  const modal = document.getElementById('lightboxModal');
-  const modalImg = document.getElementById('lightboxImg');
-  const modalTitle = document.getElementById('lightboxTitle');
-  const modalDesc = document.getElementById('lightboxDesc');
-  const closeBtn = document.getElementById('lightboxClose');
-
-  if (!modal || !modalImg) return;
-
-  const galleryItems = document.querySelectorAll('.gallery-item');
-
-  galleryItems.forEach(item => {
-    item.addEventListener('click', () => {
-      const img = item.querySelector('img');
-      const title = item.querySelector('.gallery-title')?.textContent || 'Installation Preview';
-      const desc = item.querySelector('.gallery-caption')?.textContent || 'Nevus Infocom illustrative integration project.';
-
-      modalImg.src = img.src;
-      modalImg.alt = title;
-      if (modalTitle) modalTitle.textContent = title;
-      if (modalDesc) modalDesc.textContent = desc;
-
-      modal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    });
-  });
-
-  const closeModal = () => {
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-  };
-
-  if (closeBtn) closeBtn.addEventListener('click', closeModal);
-
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) closeModal();
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) {
-      closeModal();
-    }
-  });
-}
-
-/* --------------------------------------------------------------------------
- * 7. PRODUCT & TECHNOLOGY CATEGORY FILTERING
+ * 5. PRODUCT & TECHNOLOGY CATEGORY FILTERING
  * -------------------------------------------------------------------------- */
 function initProductFiltering() {
   const productFilterBtns = document.querySelectorAll('.product-filter-btn');
@@ -281,7 +195,7 @@ function initProductFiltering() {
 }
 
 /* --------------------------------------------------------------------------
- * 8. FAQ ACCORDION
+ * 6. FAQ ACCORDION
  * -------------------------------------------------------------------------- */
 function initFaqAccordion() {
   const faqItems = document.querySelectorAll('.faq-item');
@@ -316,7 +230,7 @@ function initFaqAccordion() {
 }
 
 /* --------------------------------------------------------------------------
- * 9. FRONTEND ENQUIRY FORM VALIDATION & DEMO SUBMISSION HANDLER
+ * 7. FRONTEND ENQUIRY FORM VALIDATION & DEMO SUBMISSION HANDLER
  * -------------------------------------------------------------------------- */
 function initDemoFormValidation() {
   const forms = document.querySelectorAll('.demo-enquiry-form');
@@ -410,7 +324,7 @@ function escapeHtml(string) {
 }
 
 /* --------------------------------------------------------------------------
- * 10. SUBTLE 3D TILT ON INTERACTIVE CARDS
+ * 8. SUBTLE 3D TILT ON INTERACTIVE CARDS
  * -------------------------------------------------------------------------- */
 function initTechCardTilt() {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
