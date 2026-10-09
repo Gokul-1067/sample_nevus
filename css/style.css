@@ -1207,6 +1207,273 @@ ul, ol {
 }
 
 /* ==========================================================================
+   TESTIMONIALS MARQUEE (CONTINUOUS TICKER)
+   ========================================================================== */
+
+.section-testimonials-ticker {
+  background-color: var(--color-surface-white);
+  border-top: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid var(--color-border-subtle);
+  padding-top: 84px;
+  padding-bottom: 88px;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-marquee-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 18px 0;
+}
+
+/* Subtle edge fades blending into section background */
+.testimonial-marquee-wrapper::before,
+.testimonial-marquee-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.testimonial-marquee-wrapper::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--color-surface-white) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.testimonial-marquee-wrapper::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--color-surface-white) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* Continuous Marquee Track */
+.testimonial-marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marquee-scroll 42s linear infinite;
+}
+
+/* Pause on hover and focus */
+.testimonial-marquee-wrapper:hover .testimonial-marquee-track,
+.testimonial-marquee-wrapper:focus-within .testimonial-marquee-track {
+  animation-play-state: paused;
+}
+
+/* Seamless infinite right-to-left scroll */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-marquee-group {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  padding-right: 24px; /* Matches gap to ensure seamless loop */
+  flex-shrink: 0;
+}
+
+/* Individual Testimonial Bubble Card */
+.testimonial-card {
+  width: 390px;
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-normal), background-color var(--transition-normal);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(29, 91, 216, 0.28);
+  background-color: var(--color-surface-white);
+}
+
+.testimonial-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.testimonial-card-badge-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.testimonial-quote-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--color-blue-light);
+  color: var(--color-blue-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.testimonial-quote-icon-svg {
+  width: 16px;
+  height: 16px;
+}
+
+.testimonial-quote-text {
+  margin: 0 0 20px 0;
+  padding: 0;
+  border: none;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: var(--color-text-main);
+  font-style: normal;
+  flex-grow: 1;
+}
+
+.testimonial-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.testimonial-author-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  border: 1px solid #BFDBFE;
+  color: var(--color-blue-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.testimonial-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.testimonial-author-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  line-height: 1.3;
+}
+
+.testimonial-author-org {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.3;
+}
+
+.testimonial-author-status {
+  font-size: 0.74rem;
+  color: var(--color-text-faint);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .testimonial-marquee-track {
+    animation: none !important;
+    transform: none !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 12px 24px;
+    width: 100%;
+  }
+
+  .testimonial-marquee-group:last-child {
+    display: none !important;
+  }
+
+  .testimonial-marquee-group {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+  }
+
+  .testimonial-card {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  .testimonial-marquee-wrapper::before,
+  .testimonial-marquee-wrapper::after {
+    display: none !important;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-testimonials-ticker {
+    padding-top: 60px;
+    padding-bottom: 64px;
+  }
+
+  .testimonial-marquee-wrapper::before,
+  .testimonial-marquee-wrapper::after {
+    width: 40px;
+  }
+
+  .testimonial-card {
+    width: 310px;
+    padding: 22px 18px;
+  }
+
+  .testimonial-quote-text {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .testimonial-author-name {
+    font-size: 0.88rem;
+  }
+
+  .testimonial-author-org {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-card {
+    width: 285px;
+    padding: 20px 16px;
+  }
+
+  .testimonial-marquee-group {
+    gap: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ==========================================================================
    CATEGORY FILTER TABS & CONTROLS
    ========================================================================== */
 
