@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
     <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0062FF"/>
-      <stop offset="100%" stop-color="#00E5BE"/>
+      <stop offset="0%" stop-color="#1D5BD8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="#0B1528"/>
@@ -12,7 +12,7 @@
   <path d="M18 20L34 44" stroke="url(#favGrad)" stroke-width="5" stroke-linecap="round"/>
   <rect x="32" y="17" width="6" height="30" rx="3" fill="#FFFFFF"/>
   <!-- I -->
-  <circle cx="47" cy="19" r="3.2" fill="#00E5BE"/>
+  <circle cx="47" cy="19" r="3.2" fill="#38BDF8"/>
   <rect x="44" y="26" width="6" height="21" rx="3" fill="url(#favGrad)"/>
 </svg>
 

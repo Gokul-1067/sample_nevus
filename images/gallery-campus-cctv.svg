@@ -4,8 +4,8 @@
   <g transform="translate(60, 40)">
     <rect width="480" height="240" rx="6" fill="#040914" stroke="#1E3258" stroke-width="2"/>
     <!-- 6 Screens -->
-    <rect x="15" y="15" width="140" height="95" rx="3" fill="#0F1E38" stroke="#00E5BE"/>
-    <text x="25" y="32" fill="#00E5BE" font-family="monospace" font-size="8">CAM 01 • CAMPUS GATE</text>
+    <rect x="15" y="15" width="140" height="95" rx="3" fill="#0F1E38" stroke="#38BDF8"/>
+    <text x="25" y="32" fill="#38BDF8" font-family="monospace" font-size="8">CAM 01 • CAMPUS GATE</text>
     <rect x="170" y="15" width="140" height="95" rx="3" fill="#0F1E38" stroke="#388BFD"/>
     <text x="180" y="32" fill="#388BFD" font-family="monospace" font-size="8">CAM 02 • QUADRANGLE</text>
     <rect x="325" y="15" width="140" height="95" rx="3" fill="#0F1E38" stroke="#388BFD"/>
@@ -13,8 +13,8 @@
 
     <rect x="15" y="125" width="140" height="95" rx="3" fill="#0F1E38" stroke="#388BFD"/>
     <text x="25" y="142" fill="#388BFD" font-family="monospace" font-size="8">CAM 04 • AUDITORIUM</text>
-    <rect x="170" y="125" width="140" height="95" rx="3" fill="#0F1E38" stroke="#00E5BE"/>
-    <text x="180" y="142" fill="#00E5BE" font-family="monospace" font-size="8">CAM 05 • SERVER ROOM</text>
+    <rect x="170" y="125" width="140" height="95" rx="3" fill="#0F1E38" stroke="#38BDF8"/>
+    <text x="180" y="142" fill="#38BDF8" font-family="monospace" font-size="8">CAM 05 • SERVER ROOM</text>
     <rect x="325" y="125" width="140" height="95" rx="3" fill="#0F1E38" stroke="#388BFD"/>
     <text x="335" y="142" fill="#388BFD" font-family="monospace" font-size="8">CAM 06 • PARKING</text>
   </g>
@@ -26,6 +26,6 @@
   </g>
   <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>
   <text x="45" y="394" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Centralized Campus Video Surveillance Operations</text>
-  <text x="555" y="394" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Educational Institution Deployment</text>
+  <text x="555" y="394" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Educational Institution Deployment</text>
 </svg>
 

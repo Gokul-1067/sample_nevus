@@ -1,68 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
   <defs>
-    <linearGradient id="eqNvr" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1B33"/>
-      <stop offset="100%" stop-color="#060C18"/>
+    <linearGradient id="eqNvrLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" rx="12" fill="url(#eqNvr)"/>
+  <rect width="500" height="350" rx="12" fill="url(#eqNvrLight)" stroke="#CBD5E1" stroke-width="1.5"/>
 
   <!-- High Capacity NVR Unit -->
   <g transform="translate(250, 160)">
     <!-- Chassis Body -->
-    <rect x="-190" y="-70" width="380" height="130" rx="8" fill="#0C172B" stroke="#00E5BE" stroke-width="1.8"/>
+    <rect x="-190" y="-70" width="380" height="130" rx="8" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.8"/>
     
     <!-- Faceplate Ventilation & Display -->
-    <rect x="-175" y="-55" width="350" height="40" rx="4" fill="#060C17" stroke="#1E293B"/>
-    <rect x="-160" y="-45" width="80" height="20" rx="3" fill="#0B132B"/>
-    <text x="-120" y="-31" fill="#00E5BE" font-family="monospace" font-size="9" text-anchor="middle">REC // 32CH 4K</text>
+    <rect x="-175" y="-55" width="350" height="40" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <rect x="-160" y="-45" width="80" height="20" rx="3" fill="#EFF6FF" stroke="#93C5FD"/>
+    <text x="-120" y="-31" fill="#1D5BD8" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">REC // 32CH 4K</text>
     
     <!-- LED Indicators -->
-    <circle cx="-60" cy="-35" r="3.5" fill="#00E5BE"/>
-    <circle cx="-48" cy="-35" r="3.5" fill="#388BFD"/>
+    <circle cx="-60" cy="-35" r="3.5" fill="#059669"/>
+    <circle cx="-48" cy="-35" r="3.5" fill="#1D5BD8"/>
     <circle cx="-36" cy="-35" r="3.5" fill="#EF4444"/>
     
     <!-- Hot-Swap HDD Bays -->
     <g transform="translate(0, 0)">
-      <rect x="-170" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="-155" y1="5" x2="-145" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="-151" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="-170" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="-155" y1="5" x2="-145" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="-151" cy="38" r="2" fill="#059669"/>
 
-      <rect x="-125" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="-110" y1="5" x2="-100" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="-106" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="-125" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="-110" y1="5" x2="-100" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="-106" cy="38" r="2" fill="#059669"/>
 
-      <rect x="-80" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="-65" y1="5" x2="-55" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="-61" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="-80" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="-65" y1="5" x2="-55" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="-61" cy="38" r="2" fill="#059669"/>
 
-      <rect x="-35" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="-20" y1="5" x2="-10" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="-16" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="-35" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="-20" y1="5" x2="-10" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="-16" cy="38" r="2" fill="#059669"/>
 
-      <rect x="10" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="25" y1="5" x2="35" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="29" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="10" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="25" y1="5" x2="35" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="29" cy="38" r="2" fill="#059669"/>
 
-      <rect x="55" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="70" y1="5" x2="80" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="74" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="55" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="70" y1="5" x2="80" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="74" cy="38" r="2" fill="#059669"/>
 
-      <rect x="100" y="0" width="38" height="50" rx="3" fill="#13233D" stroke="#1E3A6B"/>
-      <line x1="115" y1="5" x2="125" y2="5" stroke="#64748B" stroke-width="2"/>
-      <circle cx="119" cy="38" r="2" fill="#00E5BE"/>
+      <rect x="100" y="0" width="38" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <line x1="115" y1="5" x2="125" y2="5" stroke="#94A3B8" stroke-width="2"/>
+      <circle cx="119" cy="38" r="2" fill="#059669"/>
 
-      <rect x="145" y="0" width="30" height="50" rx="3" fill="#0F1B2E" stroke="#1E3A6B"/>
+      <rect x="145" y="0" width="30" height="50" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
       <!-- USB / Port -->
-      <rect x="152" y="20" width="16" height="8" rx="1" fill="#388BFD"/>
+      <rect x="152" y="20" width="16" height="8" rx="1" fill="#1D5BD8"/>
     </g>
 
-    <text x="0" y="90" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Enterprise NVR &amp; DVR Recording Units</text>
-    <text x="0" y="106" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" text-anchor="middle">Multi-Bay Storage • RAID Redundancy • Synchronized Export</text>
+    <text x="0" y="90" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Enterprise NVR &amp; DVR Recording Units</text>
+    <text x="0" y="106" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" text-anchor="middle">Multi-Bay Storage • RAID Redundancy • Synchronized Export</text>
   </g>
 
   <!-- Spec Tag -->
-  <rect x="20" y="20" width="135" height="24" rx="12" fill="#065F46" fill-opacity="0.4" stroke="#00E5BE" stroke-width="1"/>
-  <text x="87" y="36" fill="#6EE7B7" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">RECORDING &amp; STORAGE</text>
+  <rect x="20" y="20" width="145" height="24" rx="12" fill="#EFF6FF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="92" y="36" fill="#1D5BD8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">RECORDING &amp; STORAGE</text>
 </svg>
-

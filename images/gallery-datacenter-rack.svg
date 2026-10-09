@@ -6,25 +6,25 @@
     <rect width="200" height="310" rx="6" fill="#0C172B" stroke="#388BFD" stroke-width="1.8"/>
     <rect x="15" y="15" width="170" height="280" rx="3" fill="#060C17"/>
     <!-- Switch units & cable neatening -->
-    <rect x="25" y="25" width="150" height="24" rx="2" fill="#13233D" stroke="#00E5BE"/>
+    <rect x="25" y="25" width="150" height="24" rx="2" fill="#13233D" stroke="#38BDF8"/>
     <rect x="25" y="55" width="150" height="24" rx="2" fill="#13233D" stroke="#388BFD"/>
     <rect x="25" y="85" width="150" height="35" rx="2" fill="#13233D"/>
-    <rect x="25" y="125" width="150" height="45" rx="2" fill="#13233D" stroke="#00E5BE"/>
+    <rect x="25" y="125" width="150" height="45" rx="2" fill="#13233D" stroke="#38BDF8"/>
     <rect x="25" y="175" width="150" height="45" rx="2" fill="#13233D"/>
     <rect x="25" y="225" width="150" height="60" rx="2" fill="#101C2E" stroke="#475569"/>
     <text x="100" y="260" fill="#94A3B8" font-family="monospace" font-size="9" text-anchor="middle">ONLINE UPS RACK</text>
   </g>
   <g transform="translate(320, 40)">
     <!-- Rack 2 -->
-    <rect width="200" height="310" rx="6" fill="#0C172B" stroke="#00E5BE" stroke-width="1.8"/>
+    <rect width="200" height="310" rx="6" fill="#0C172B" stroke="#38BDF8" stroke-width="1.8"/>
     <rect x="15" y="15" width="170" height="280" rx="3" fill="#060C17"/>
     <!-- Fiber LIU and Patch panels -->
-    <rect x="25" y="25" width="150" height="30" rx="2" fill="#13233D" stroke="#00E5BE"/>
-    <text x="100" y="44" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">FIBER OPTIC LIU 10G</text>
+    <rect x="25" y="25" width="150" height="30" rx="2" fill="#13233D" stroke="#38BDF8"/>
+    <text x="100" y="44" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="middle">FIBER OPTIC LIU 10G</text>
     <rect x="25" y="60" width="150" height="24" rx="2" fill="#13233D" stroke="#388BFD"/>
     <rect x="25" y="90" width="150" height="24" rx="2" fill="#13233D" stroke="#388BFD"/>
     <rect x="25" y="120" width="150" height="45" rx="2" fill="#13233D"/>
-    <rect x="25" y="170" width="150" height="45" rx="2" fill="#13233D" stroke="#00E5BE"/>
+    <rect x="25" y="170" width="150" height="45" rx="2" fill="#13233D" stroke="#38BDF8"/>
     <rect x="25" y="220" width="150" height="65" rx="2" fill="#101C2E"/>
   </g>
   <!-- Floor Tile Cable Entry Grid -->

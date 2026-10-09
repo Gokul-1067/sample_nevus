@@ -1,53 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
   <defs>
-    <linearGradient id="eqCctv" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1B33"/>
-      <stop offset="100%" stop-color="#060C18"/>
+    <linearGradient id="eqCctvLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" rx="12" fill="url(#eqCctv)"/>
+  <rect width="500" height="350" rx="12" fill="url(#eqCctvLight)" stroke="#CBD5E1" stroke-width="1.5"/>
   
   <!-- Optical Dome & Bullet Dual Unit Display -->
   <!-- Bullet Camera Unit -->
   <g transform="translate(160, 160)">
     <!-- Base Plate -->
-    <rect x="-80" y="-30" width="16" height="60" rx="4" fill="#334155"/>
-    <path d="M-64 -10 L-20 -10 L-10 10 L-64 10 Z" fill="#475569"/>
+    <rect x="-80" y="-30" width="16" height="60" rx="4" fill="#64748B"/>
+    <path d="M-64 -10 L-20 -10 L-10 10 L-64 10 Z" fill="#94A3B8"/>
     <!-- Housing -->
-    <rect x="-20" y="-35" width="120" height="70" rx="10" fill="#1E293B" stroke="#00E5BE" stroke-width="1.5"/>
-    <path d="M100 -25 L125 -35 L125 35 L100 25 Z" fill="#0F172A" stroke="#00E5BE" stroke-width="1.5"/>
-    <ellipse cx="125" cy="0" rx="6" ry="35" fill="#00E5BE" opacity="0.3"/>
-    <circle cx="125" cy="0" r="14" fill="#0B1528" stroke="#00E5BE" stroke-width="1.5"/>
-    <circle cx="125" cy="0" r="5" fill="#00E5BE"/>
+    <rect x="-20" y="-35" width="120" height="70" rx="10" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.5"/>
+    <path d="M100 -25 L125 -35 L125 35 L100 25 Z" fill="#1E293B" stroke="#1D5BD8" stroke-width="1.5"/>
+    <ellipse cx="125" cy="0" rx="6" ry="35" fill="#1D5BD8" opacity="0.3"/>
+    <circle cx="125" cy="0" r="14" fill="#0F172A" stroke="#1D5BD8" stroke-width="1.5"/>
+    <circle cx="125" cy="0" r="5" fill="#38BDF8"/>
     <!-- Sunshield -->
-    <path d="M-30 -38 L115 -38 L105 -35 L-20 -35 Z" fill="#64748B"/>
+    <path d="M-30 -38 L115 -38 L105 -35 L-20 -35 Z" fill="#CBD5E1"/>
     <!-- Status LED -->
-    <circle cx="-10" cy="-20" r="3" fill="#00E5BE"/>
+    <circle cx="-10" cy="-20" r="3" fill="#059669"/>
     <!-- Label -->
-    <text x="35" y="65" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">IP Bullet Optics</text>
-    <text x="35" y="80" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Varifocal / IR Night Range</text>
+    <text x="35" y="65" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">IP Bullet Optics</text>
+    <text x="35" y="80" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Varifocal / IR Night Range</text>
   </g>
 
   <!-- Dome Camera Unit -->
   <g transform="translate(370, 160)">
     <!-- Ceiling Mount Plate -->
-    <rect x="-60" y="-80" width="120" height="14" rx="3" fill="#475569"/>
+    <rect x="-60" y="-80" width="120" height="14" rx="3" fill="#64748B"/>
     <!-- Transparent Bubble Ring -->
-    <circle cx="0" cy="-20" r="55" fill="#13233D" stroke="#388BFD" stroke-width="2"/>
-    <circle cx="0" cy="-20" r="40" fill="#0B1528"/>
+    <circle cx="0" cy="-20" r="55" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="40" fill="#F1F5F9"/>
     <!-- Inner Gimbal Lens -->
-    <circle cx="6" cy="-14" r="22" fill="#1E293B" stroke="#00E5BE" stroke-width="1.5"/>
-    <circle cx="6" cy="-14" r="8" fill="#00E5BE" opacity="0.5"/>
+    <circle cx="6" cy="-14" r="22" fill="#1E293B" stroke="#1D5BD8" stroke-width="1.5"/>
+    <circle cx="6" cy="-14" r="8" fill="#38BDF8" opacity="0.6"/>
     <circle cx="6" cy="-14" r="3" fill="#FFFFFF"/>
     <!-- Dome Base Trim -->
-    <path d="M-55 -40 L55 -40" stroke="#64748B" stroke-width="4"/>
+    <path d="M-55 -40 L55 -40" stroke="#CBD5E1" stroke-width="4"/>
     <!-- Label -->
-    <text x="0" y="65" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Vandal-Proof Dome</text>
-    <text x="0" y="80" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Indoor / Outdoor IK10 Rated</text>
+    <text x="0" y="65" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Vandal-Proof Dome</text>
+    <text x="0" y="80" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Indoor / Outdoor IK10 Rated</text>
   </g>
 
   <!-- Spec Tag -->
-  <rect x="20" y="20" width="140" height="24" rx="12" fill="#1E3A8A" fill-opacity="0.4" stroke="#388BFD" stroke-width="1"/>
-  <text x="90" y="36" fill="#93C5FD" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">SURVEILLANCE OPTICS</text>
+  <rect x="20" y="20" width="140" height="24" rx="12" fill="#EFF6FF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="90" y="36" fill="#1D5BD8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">SURVEILLANCE OPTICS</text>
 </svg>
-

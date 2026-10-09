@@ -1,98 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
   <defs>
-    <linearGradient id="backupBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1B33"/>
-      <stop offset="100%" stop-color="#070E1A"/>
-    </linearGradient>
-    <linearGradient id="syncFlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0062FF"/>
-      <stop offset="50%" stop-color="#00E5BE"/>
-      <stop offset="100%" stop-color="#388BFD"/>
+    <linearGradient id="backupBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="400" rx="16" fill="url(#backupBg)"/>
+  <rect width="600" height="400" rx="16" fill="url(#backupBgLight)" stroke="#CBD5E1" stroke-width="1.5"/>
 
   <!-- Left: Live Operational Systems (NVR, PBX, Network Controllers) -->
   <g transform="translate(140, 175)">
-    <rect x="-85" y="-105" width="170" height="210" rx="10" fill="#0C172B" stroke="#388BFD" stroke-width="1.5"/>
-    <text x="0" y="-85" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Live Production Systems</text>
-    <text x="0" y="-72" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" text-anchor="middle">Configs, Firmware &amp; Logs</text>
+    <rect x="-85" y="-105" width="170" height="210" rx="10" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.5"/>
+    <text x="0" y="-85" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Live Production Systems</text>
+    <text x="0" y="-72" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" text-anchor="middle">Configs, Firmware &amp; Logs</text>
 
     <!-- System 1: NVR & Camera Settings -->
-    <rect x="-70" y="-55" width="140" height="34" rx="4" fill="#13233D" stroke="#1E3A6B"/>
-    <circle cx="-52" cy="-38" r="3" fill="#00E5BE"/>
-    <text x="-40" y="-35" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Surveillance Configs</text>
-    <text x="-40" y="-25" fill="#64748B" font-family="monospace" font-size="7">IP / Stream Profiles</text>
+    <rect x="-70" y="-55" width="140" height="34" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="-52" cy="-38" r="3" fill="#1D5BD8"/>
+    <text x="-40" y="-35" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Surveillance Configs</text>
+    <text x="-40" y="-25" fill="#475569" font-family="monospace" font-size="7">IP / Stream Profiles</text>
 
     <!-- System 2: PBX & Call Routing -->
-    <rect x="-70" y="-12" width="140" height="34" rx="4" fill="#13233D" stroke="#1E3A6B"/>
-    <circle cx="-52" cy="5" r="3" fill="#00E5BE"/>
-    <text x="-40" y="8" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">EPABX Routing Rules</text>
-    <text x="-40" y="18" fill="#64748B" font-family="monospace" font-size="7">Dial Plans &amp; Extension Map</text>
+    <rect x="-70" y="-12" width="140" height="34" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="-52" cy="5" r="3" fill="#1D5BD8"/>
+    <text x="-40" y="8" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">EPABX Routing Rules</text>
+    <text x="-40" y="18" fill="#475569" font-family="monospace" font-size="7">Dial Plans &amp; Extension Map</text>
 
     <!-- System 3: Network & VLAN Configs -->
-    <rect x="-70" y="32" width="140" height="34" rx="4" fill="#13233D" stroke="#1E3A6B"/>
-    <circle cx="-52" cy="49" r="3" fill="#00E5BE"/>
-    <text x="-40" y="52" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Switch &amp; Router States</text>
-    <text x="-40" y="62" fill="#64748B" font-family="monospace" font-size="7">VLAN / ACL Policies</text>
+    <rect x="-70" y="32" width="140" height="34" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="-52" cy="49" r="3" fill="#1D5BD8"/>
+    <text x="-40" y="52" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Switch &amp; Router States</text>
+    <text x="-40" y="62" fill="#475569" font-family="monospace" font-size="7">VLAN / ACL Policies</text>
 
     <!-- System 4: Biometric Database Records -->
-    <rect x="-70" y="74" width="140" height="22" rx="4" fill="#102035" stroke="#1E3A6B"/>
-    <circle cx="-52" cy="85" r="2.5" fill="#00E5BE"/>
-    <text x="-40" y="88" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Biometric Enrollment Sync</text>
+    <rect x="-70" y="74" width="140" height="22" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="-52" cy="85" r="2.5" fill="#059669"/>
+    <text x="-40" y="88" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600">Biometric Enrollment Sync</text>
   </g>
 
   <!-- Center: Automated Snapshot & Validation Engine -->
   <g transform="translate(300, 175)">
     <!-- Shield / Core Sync Hub -->
-    <circle cx="0" cy="0" r="42" fill="#11223F" stroke="#00E5BE" stroke-width="2"/>
-    <circle cx="0" cy="0" r="32" fill="#0B1528"/>
+    <circle cx="0" cy="0" r="42" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="2"/>
+    <circle cx="0" cy="0" r="32" fill="#EFF6FF"/>
     
     <!-- Redundancy Shield Icon -->
-    <path d="M-12 -12 L0 -18 L12 -12 L12 0 C12 10 0 16 0 16 C0 16 -12 10 -12 0 Z" fill="#00E5BE" fill-opacity="0.25" stroke="#00E5BE" stroke-width="1.8"/>
-    <path d="M-5 -2 L-1 3 L7 -5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-12 -12 L0 -18 L12 -12 L12 0 C12 10 0 16 0 16 C0 16 -12 10 -12 0 Z" fill="#EFF6FF" stroke="#1D5BD8" stroke-width="1.8"/>
+    <path d="M-5 -2 L-1 3 L7 -5" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
     <!-- Dual Sync arrows -->
-    <path d="M-28 -30 A46 46 0 0 1 28 -30" stroke="#00E5BE" stroke-width="2" stroke-dasharray="4 3"/>
-    <path d="M28 30 A46 46 0 0 1 -28 30" stroke="#388BFD" stroke-width="2" stroke-dasharray="4 3"/>
+    <path d="M-28 -30 A46 46 0 0 1 28 -30" stroke="#1D5BD8" stroke-width="2" stroke-dasharray="4 3"/>
+    <path d="M28 30 A46 46 0 0 1 -28 30" stroke="#0F766E" stroke-width="2" stroke-dasharray="4 3"/>
 
-    <text x="0" y="60" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">CONTINUOUS BACKUP</text>
-    <text x="0" y="72" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" text-anchor="middle">Integrity Verified</text>
+    <text x="0" y="60" fill="#1D5BD8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">CONTINUOUS BACKUP</text>
+    <text x="0" y="72" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" text-anchor="middle">Integrity Verified</text>
   </g>
 
   <!-- Right: Secure Offline & Redundant System Archive -->
   <g transform="translate(460, 175)">
-    <rect x="-85" y="-105" width="170" height="210" rx="10" fill="#0C172B" stroke="#00E5BE" stroke-width="1.5"/>
-    <text x="0" y="-85" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Continuity &amp; Recovery Vault</text>
-    <text x="0" y="-72" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" text-anchor="middle">Rapid System Restoration</text>
+    <rect x="-85" y="-105" width="170" height="210" rx="10" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.5"/>
+    <text x="0" y="-85" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Continuity &amp; Recovery Vault</text>
+    <text x="0" y="-72" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" text-anchor="middle">Rapid System Restoration</text>
 
     <!-- Storage Vault Visual -->
     <g transform="translate(0, -20)">
-      <rect x="-65" y="-20" width="130" height="26" rx="4" fill="#13233D" stroke="#00E5BE"/>
-      <circle cx="-48" cy="-7" r="3" fill="#00E5BE"/>
-      <text x="-35" y="-4" fill="#FFFFFF" font-family="monospace" font-size="8">IMAGE_SET_A // VERIFIED</text>
+      <rect x="-65" y="-20" width="130" height="26" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <circle cx="-48" cy="-7" r="3" fill="#059669"/>
+      <text x="-35" y="-4" fill="#0F172A" font-family="monospace" font-size="8" font-weight="600">IMAGE_SET_A // VERIFIED</text>
 
-      <rect x="-65" y="12" width="130" height="26" rx="4" fill="#13233D" stroke="#388BFD"/>
-      <circle cx="-48" cy="25" r="3" fill="#388BFD"/>
-      <text x="-35" y="28" fill="#FFFFFF" font-family="monospace" font-size="8">IMAGE_SET_B // STANDBY</text>
+      <rect x="-65" y="12" width="130" height="26" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <circle cx="-48" cy="25" r="3" fill="#1D5BD8"/>
+      <text x="-35" y="28" fill="#0F172A" font-family="monospace" font-size="8" font-weight="600">IMAGE_SET_B // STANDBY</text>
 
-      <rect x="-65" y="44" width="130" height="26" rx="4" fill="#13233D" stroke="#388BFD"/>
-      <circle cx="-48" cy="57" r="3" fill="#388BFD"/>
-      <text x="-35" y="60" fill="#FFFFFF" font-family="monospace" font-size="8">FIRMWARE_BASELINE_V4</text>
+      <rect x="-65" y="44" width="130" height="26" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <circle cx="-48" cy="57" r="3" fill="#0F766E"/>
+      <text x="-35" y="60" fill="#0F172A" font-family="monospace" font-size="8" font-weight="600">FIRMWARE_BASELINE_V4</text>
     </g>
 
     <!-- Fast Recovery Indicator -->
-    <rect x="-65" y="70" width="130" height="24" rx="12" fill="#047857" fill-opacity="0.3" stroke="#10B981"/>
-    <text x="0" y="86" fill="#6EE7B7" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" text-anchor="middle">ZERO-LOSS RECOVERY READY</text>
+    <rect x="-65" y="70" width="130" height="24" rx="12" fill="#ECFDF5" stroke="#059669"/>
+    <text x="0" y="86" fill="#059669" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" text-anchor="middle">ZERO-LOSS RECOVERY READY</text>
   </g>
 
   <!-- Connective Flows -->
-  <path d="M225 175 L258 175" stroke="url(#syncFlow)" stroke-width="2.5" stroke-dasharray="4 2"/>
-  <path d="M342 175 L375 175" stroke="url(#syncFlow)" stroke-width="2.5" stroke-dasharray="4 2"/>
+  <path d="M225 175 L258 175" stroke="#1D5BD8" stroke-width="2.5" stroke-dasharray="4 2"/>
+  <path d="M342 175 L375 175" stroke="#1D5BD8" stroke-width="2.5" stroke-dasharray="4 2"/>
 
   <!-- Footer Banner -->
-  <rect x="30" y="340" width="540" height="38" rx="8" fill="#11223F" stroke="#1E3A66"/>
-  <text x="45" y="364" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Software &amp; System Backup Practices</text>
-  <text x="555" y="364" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">Configuration Snapshots • Rapid Restore • Operational Continuity</text>
+  <rect x="30" y="340" width="540" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="364" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Software &amp; System Backup Practices</text>
+  <text x="555" y="364" fill="#1D5BD8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">Configuration Snapshots • Rapid Restore • Operational Continuity</text>
 </svg>
-

@@ -1,149 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
   <defs>
-    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B1528"/>
-      <stop offset="60%" stop-color="#102042"/>
-      <stop offset="100%" stop-color="#08101E"/>
+    <linearGradient id="heroBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0062FF"/>
-      <stop offset="100%" stop-color="#00E5BE"/>
+    <linearGradient id="sapphireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D5BD8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
     </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#182A4D" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0E1B33" stop-opacity="0.95"/>
-    </linearGradient>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <filter id="softCardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.06"/>
     </filter>
   </defs>
 
   <!-- Background Canvas -->
-  <rect width="800" height="500" rx="16" fill="url(#heroBg)"/>
+  <rect width="800" height="500" rx="16" fill="url(#heroBgLight)" stroke="#E2E8F0" stroke-width="1.5"/>
   
-  <!-- Grid Matrix Overlay -->
-  <g stroke="#1E3258" stroke-width="0.7" opacity="0.35">
+  <!-- Subtle Architectural Grid Overlay -->
+  <g stroke="#CBD5E1" stroke-width="0.8" opacity="0.45">
     <path d="M50 0v500 M100 0v500 M150 0v500 M200 0v500 M250 0v500 M300 0v500 M350 0v500 M400 0v500 M450 0v500 M500 0v500 M550 0v500 M600 0v500 M650 0v500 M700 0v500 M750 0v500"/>
     <path d="M0 50h800 M0 100h800 M0 150h800 M0 200h800 M0 250h800 M0 300h800 M0 350h800 M0 400h800 M0 450h800"/>
   </g>
 
   <!-- Circuit Stream Lines Connecting Hubs -->
-  <g stroke="url(#blueGlow)" stroke-width="2" stroke-linecap="round" opacity="0.75" stroke-dasharray="6 4">
+  <g stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 4">
     <!-- Center to CCTV -->
-    <path d="M400 240 L210 130"/>
+    <path d="M400 235 L210 135"/>
     <!-- Center to Networking Rack -->
-    <path d="M400 240 L590 120"/>
+    <path d="M400 235 L590 125"/>
     <!-- Center to Biometrics -->
-    <path d="M400 240 L190 360"/>
+    <path d="M400 235 L190 355"/>
     <!-- Center to EPABX -->
-    <path d="M400 240 L610 360"/>
+    <path d="M400 235 L610 355"/>
     <!-- Center to Backup / Storage -->
-    <path d="M400 240 L400 410"/>
+    <path d="M400 235 L400 410"/>
   </g>
 
-  <!-- Glow halos under nodes -->
-  <circle cx="400" cy="240" r="70" fill="#0062FF" opacity="0.18" filter="url(#softGlow)"/>
-  <circle cx="210" cy="130" r="45" fill="#00E5BE" opacity="0.15" filter="url(#softGlow)"/>
-  <circle cx="590" cy="120" r="45" fill="#0062FF" opacity="0.15" filter="url(#softGlow)"/>
-  <circle cx="190" cy="360" r="45" fill="#00E5BE" opacity="0.15" filter="url(#softGlow)"/>
-  <circle cx="610" cy="360" r="45" fill="#0062FF" opacity="0.15" filter="url(#softGlow)"/>
+  <!-- Accent flow active conduits -->
+  <g stroke="#1D5BD8" stroke-width="2" stroke-linecap="round" opacity="0.75" stroke-dasharray="4 8">
+    <path d="M400 235 L210 135"/>
+    <path d="M400 235 L590 125"/>
+    <path d="M400 235 L190 355"/>
+    <path d="M400 235 L610 355"/>
+    <path d="M400 235 L400 410"/>
+  </g>
 
   <!-- CENTRAL CORE NODE: System Integration Engine -->
-  <g transform="translate(400, 240)">
+  <g transform="translate(400, 235)">
     <!-- Outer concentric rings -->
-    <circle r="52" fill="#0E1B33" stroke="url(#blueGlow)" stroke-width="2"/>
-    <circle r="42" fill="#152648" stroke="#388BFD" stroke-width="1.2" stroke-dasharray="8 4"/>
-    <circle r="30" fill="url(#heroBg)"/>
+    <circle r="52" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" filter="url(#softCardShadow)"/>
+    <circle r="44" fill="#EFF6FF" stroke="#1D5BD8" stroke-width="1.5" stroke-dasharray="6 3"/>
+    <circle r="32" fill="#1D5BD8"/>
     
-    <!-- Central NI Icon Symbol -->
+    <!-- Central NI Icon Symbol in crisp white -->
     <path d="M-12 -12 L-12 12 M-12 -6 L12 10 M12 -12 L12 12" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="12" cy="-14" r="2.5" fill="#00E5BE"/>
+    <circle cx="12" cy="-14" r="2.5" fill="#FFFFFF"/>
     
-    <!-- Status Pulse -->
-    <circle cx="0" cy="0" r="5" fill="#00E5BE"/>
+    <!-- Status Node -->
+    <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
     
     <!-- Center Badge -->
-    <rect x="-65" y="60" width="130" height="26" rx="13" fill="#152648" stroke="#388BFD" stroke-width="1"/>
-    <text x="0" y="77" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1">NI CORE INTEGRATION</text>
+    <rect x="-68" y="58" width="136" height="26" rx="13" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" filter="url(#softCardShadow)"/>
+    <circle cx="-54" cy="71" r="3.5" fill="#1D5BD8"/>
+    <text x="5" y="75" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">NI CORE ENGINE</text>
   </g>
 
   <!-- NODE 1: CCTV & Video Surveillance (Top Left) -->
-  <g transform="translate(210, 130)">
-    <rect x="-70" y="-55" width="140" height="110" rx="12" fill="url(#cardGrad)" stroke="#1F3A66" stroke-width="1.2"/>
+  <g transform="translate(210, 135)" filter="url(#softCardShadow)">
+    <rect x="-70" y="-55" width="140" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
     <!-- Dome Camera Visual -->
-    <circle cx="0" cy="-15" r="22" fill="#102042" stroke="#00E5BE" stroke-width="1.5"/>
-    <circle cx="0" cy="-15" r="14" fill="#08101E"/>
-    <circle cx="-3" cy="-18" r="4" fill="#00E5BE" opacity="0.8"/>
+    <circle cx="0" cy="-16" r="22" fill="#EFF6FF" stroke="#1D5BD8" stroke-width="1.5"/>
+    <circle cx="0" cy="-16" r="14" fill="#1E293B"/>
+    <circle cx="-3" cy="-19" r="4" fill="#38BDF8"/>
     <!-- Camera Mount -->
     <path d="M-22 -22 L-34 -30 L-34 -15" stroke="#64748B" stroke-width="2" fill="none"/>
     <!-- Field of View Cone -->
-    <path d="M0 -3 L-26 22 L26 22 Z" fill="#00E5BE" opacity="0.12"/>
+    <path d="M0 -4 L-24 18 L24 18 Z" fill="#1D5BD8" opacity="0.08"/>
     <!-- Labels -->
-    <text x="0" y="28" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">CCTV Surveillance</text>
-    <text x="0" y="42" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">IP Cameras &amp; NVR Hub</text>
-    <circle cx="50" cy="-38" r="4" fill="#00E5BE"/>
+    <text x="0" y="26" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">CCTV Surveillance</text>
+    <text x="0" y="40" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">IP Optics &amp; NVR Vault</text>
+    <circle cx="52" cy="-38" r="4" fill="#059669"/>
   </g>
 
   <!-- NODE 2: Network Infrastructure (Top Right) -->
-  <g transform="translate(590, 120)">
-    <rect x="-75" y="-55" width="150" height="110" rx="12" fill="url(#cardGrad)" stroke="#1F3A66" stroke-width="1.2"/>
+  <g transform="translate(590, 125)" filter="url(#softCardShadow)">
+    <rect x="-75" y="-55" width="150" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
     <!-- Switch / Rack visual -->
-    <rect x="-45" y="-32" width="90" height="14" rx="3" fill="#102042" stroke="#388BFD" stroke-width="1"/>
-    <g fill="#00E5BE">
+    <rect x="-45" y="-32" width="90" height="14" rx="3" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1"/>
+    <g fill="#1D5BD8">
       <circle cx="-35" cy="-25" r="2"/><circle cx="-27" cy="-25" r="2"/><circle cx="-19" cy="-25" r="2"/>
       <circle cx="-11" cy="-25" r="2"/><circle cx="-3" cy="-25" r="2"/><circle cx="5" cy="-25" r="2"/>
     </g>
-    <rect x="-45" y="-14" width="90" height="14" rx="3" fill="#102042" stroke="#388BFD" stroke-width="1"/>
-    <g fill="#388BFD">
+    <rect x="-45" y="-14" width="90" height="14" rx="3" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1"/>
+    <g fill="#059669">
       <circle cx="-35" cy="-7" r="2"/><circle cx="-27" cy="-7" r="2"/><circle cx="-19" cy="-7" r="2"/>
       <circle cx="-11" cy="-7" r="2"/><circle cx="-3" cy="-7" r="2"/><circle cx="5" cy="-7" r="2"/>
     </g>
     <!-- Labels -->
-    <text x="0" y="28" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Networking Backbone</text>
-    <text x="0" y="42" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Switches, Routers &amp; Wi-Fi</text>
-    <circle cx="55" cy="-38" r="4" fill="#0062FF"/>
+    <text x="0" y="26" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Network Infrastructure</text>
+    <text x="0" y="40" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Switches, Fiber &amp; Wi-Fi</text>
+    <circle cx="55" cy="-38" r="4" fill="#059669"/>
   </g>
 
   <!-- NODE 3: Biometric Access (Bottom Left) -->
-  <g transform="translate(190, 360)">
-    <rect x="-70" y="-55" width="140" height="110" rx="12" fill="url(#cardGrad)" stroke="#1F3A66" stroke-width="1.2"/>
+  <g transform="translate(190, 355)" filter="url(#softCardShadow)">
+    <rect x="-70" y="-55" width="140" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
     <!-- Biometric Fingerprint / Face icon -->
-    <rect x="-20" y="-35" width="40" height="42" rx="6" fill="#102042" stroke="#00E5BE" stroke-width="1.2"/>
-    <path d="M-10 -20 A10 10 0 0 1 10 -20" stroke="#00E5BE" stroke-width="1.8" fill="none"/>
-    <path d="M-6 -14 A6 6 0 0 1 6 -14" stroke="#00E5BE" stroke-width="1.8" fill="none"/>
-    <path d="M-2 -8 A2 2 0 0 1 2 -8" stroke="#00E5BE" stroke-width="1.8" fill="none"/>
+    <rect x="-20" y="-35" width="40" height="42" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+    <path d="M-10 -20 A10 10 0 0 1 10 -20" stroke="#1D5BD8" stroke-width="1.8" fill="none"/>
+    <path d="M-6 -14 A6 6 0 0 1 6 -14" stroke="#1D5BD8" stroke-width="1.8" fill="none"/>
+    <path d="M-2 -8 A2 2 0 0 1 2 -8" stroke="#1D5BD8" stroke-width="1.8" fill="none"/>
     <!-- Scan Line -->
-    <line x1="-16" y1="-16" x2="16" y2="-16" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+    <line x1="-16" y1="-16" x2="16" y2="-16" stroke="#0F766E" stroke-width="1.5"/>
     <!-- Labels -->
-    <text x="0" y="28" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Biometric Systems</text>
-    <text x="0" y="42" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Access &amp; Attendance</text>
-    <circle cx="50" cy="-38" r="4" fill="#00E5BE"/>
+    <text x="0" y="26" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Biometric Systems</text>
+    <text x="0" y="40" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Access &amp; Attendance</text>
+    <circle cx="50" cy="-38" r="4" fill="#059669"/>
   </g>
 
   <!-- NODE 4: EPABX & Communications (Bottom Right) -->
-  <g transform="translate(610, 360)">
-    <rect x="-75" y="-55" width="150" height="110" rx="12" fill="url(#cardGrad)" stroke="#1F3A66" stroke-width="1.2"/>
+  <g transform="translate(610, 355)" filter="url(#softCardShadow)">
+    <rect x="-75" y="-55" width="150" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
     <!-- PBX / Intercom Console visual -->
-    <rect x="-35" y="-34" width="70" height="38" rx="6" fill="#102042" stroke="#388BFD" stroke-width="1.2"/>
-    <rect x="-27" y="-28" width="28" height="18" rx="2" fill="#08101E" stroke="#1E3258"/>
-    <circle cx="15" cy="-24" r="3" fill="#00E5BE"/>
-    <circle cx="15" cy="-14" r="3" fill="#388BFD"/>
+    <rect x="-35" y="-34" width="70" height="38" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+    <rect x="-27" y="-28" width="28" height="18" rx="2" fill="#EFF6FF" stroke="#CBD5E1"/>
+    <circle cx="15" cy="-24" r="3" fill="#1D5BD8"/>
+    <circle cx="15" cy="-14" r="3" fill="#0F766E"/>
     <!-- Intercom Handset -->
     <path d="M-30 0 C-20 6, 20 6, 30 0" stroke="#64748B" stroke-width="2" fill="none"/>
     <!-- Labels -->
-    <text x="0" y="28" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">EPABX Communication</text>
-    <text x="0" y="42" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Voice &amp; Intercom Systems</text>
-    <circle cx="55" cy="-38" r="4" fill="#0062FF"/>
+    <text x="0" y="26" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">EPABX Telephony</text>
+    <text x="0" y="40" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Voice &amp; Intercom Routing</text>
+    <circle cx="55" cy="-38" r="4" fill="#059669"/>
   </g>
 
   <!-- NODE 5: Differentiator: System Backups & Continuity (Bottom Center) -->
-  <g transform="translate(400, 420)">
-    <rect x="-105" y="-22" width="210" height="44" rx="22" fill="#132442" stroke="#00E5BE" stroke-width="1.2"/>
+  <g transform="translate(400, 420)" filter="url(#softCardShadow)">
+    <rect x="-115" y="-22" width="230" height="44" rx="22" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
     <!-- Shield / Backup Icon -->
-    <path d="M-80 -8 L-72 -12 L-64 -8 L-64 0 C-64 6 -72 10 -72 10 C-72 10 -80 6 -80 0 Z" fill="#00E5BE" opacity="0.2" stroke="#00E5BE" stroke-width="1.5"/>
-    <text x="8" y="-3" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">System Continuity &amp; Backup</text>
-    <text x="8" y="11" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" text-anchor="middle">Software &amp; Configuration Redundancy</text>
+    <path d="M-90 -8 L-82 -12 L-74 -8 L-74 0 C-74 6 -82 10 -82 10 C-82 10 -90 6 -90 0 Z" fill="#EFF6FF" stroke="#1D5BD8" stroke-width="1.5"/>
+    <text x="14" y="-3" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">System Continuity &amp; Backup</text>
+    <text x="14" y="11" fill="#475569" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" text-anchor="middle">Software &amp; Configuration Redundancy</text>
   </g>
 </svg>
-

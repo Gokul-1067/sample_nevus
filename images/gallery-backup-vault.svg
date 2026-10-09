@@ -3,28 +3,28 @@
   <!-- Network Operations Center & Backup Archive -->
   <g transform="translate(180, 160)">
     <!-- Backup Storage Chassis / Vault Array -->
-    <rect x="-120" y="-90" width="240" height="180" rx="8" fill="#0C172B" stroke="#00E5BE" stroke-width="2"/>
+    <rect x="-120" y="-90" width="240" height="180" rx="8" fill="#0C172B" stroke="#38BDF8" stroke-width="2"/>
     <rect x="-105" y="-75" width="210" height="30" rx="4" fill="#050C17"/>
-    <text x="-90" y="-55" fill="#00E5BE" font-family="monospace" font-size="9">SNAPSHOT ARCHIVE // 03:00 AM</text>
-    <circle cx="90" cy="-60" r="4" fill="#00E5BE"/>
+    <text x="-90" y="-55" fill="#38BDF8" font-family="monospace" font-size="9">SNAPSHOT ARCHIVE // 03:00 AM</text>
+    <circle cx="90" cy="-60" r="4" fill="#38BDF8"/>
 
     <!-- Backup Volume Slots -->
     <g transform="translate(0, -30)">
       <rect x="-105" y="0" width="210" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
       <text x="-95" y="16" fill="#FFFFFF" font-family="monospace" font-size="8">NVR_CONFIG_V22.IMG</text>
-      <text x="95" y="16" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
+      <text x="95" y="16" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
 
       <rect x="-105" y="30" width="210" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
       <text x="-95" y="46" fill="#FFFFFF" font-family="monospace" font-size="8">SWITCH_VLAN_TOPOLOGY.CFG</text>
-      <text x="95" y="46" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
+      <text x="95" y="46" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
 
       <rect x="-105" y="60" width="210" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
       <text x="-95" y="76" fill="#FFFFFF" font-family="monospace" font-size="8">EPABX_DIALPLAN_MAP.XML</text>
-      <text x="95" y="76" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
+      <text x="95" y="76" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
 
       <rect x="-105" y="90" width="210" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
       <text x="-95" y="106" fill="#FFFFFF" font-family="monospace" font-size="8">BIOMETRIC_USERS_SQLITE</text>
-      <text x="95" y="106" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
+      <text x="95" y="106" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="end">SYNCED [OK]</text>
     </g>
   </g>
 
@@ -32,13 +32,13 @@
   <g transform="translate(450, 160)">
     <rect x="-70" y="-90" width="140" height="180" rx="8" fill="#0C172B" stroke="#388BFD" stroke-width="1.8"/>
     <!-- Recovery Shield Icon -->
-    <path d="M0 -60 L35 -40 L35 0 C35 30 0 55 0 55 C0 55 -35 30 -35 0 L-35 -40 Z" fill="#00E5BE" fill-opacity="0.2" stroke="#00E5BE" stroke-width="2"/>
+    <path d="M0 -60 L35 -40 L35 0 C35 30 0 55 0 55 C0 55 -35 30 -35 0 L-35 -40 Z" fill="#38BDF8" fill-opacity="0.2" stroke="#38BDF8" stroke-width="2"/>
     <path d="M-12 -5 L-4 5 L14 -13" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="0" y="75" fill="#388BFD" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">RESTORATION READY</text>
   </g>
 
   <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>
   <text x="45" y="394" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Automated Software &amp; System Configuration Vault</text>
-  <text x="555" y="394" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Business Continuity Architecture</text>
+  <text x="555" y="394" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Business Continuity Architecture</text>
 </svg>
 

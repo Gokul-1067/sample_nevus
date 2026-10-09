@@ -60,10 +60,12 @@ You can also open `index.html` directly in any web browser (Google Chrome, Micro
 
 ## 🎨 Visual Identity & Design System
 
-- **Color Palette:**
-  - **Midnight & Deep Navy (`#070D18`, `#0B1528`, `#101E38`)**: Authority, stability, and corporate technical credibility.
-  - **High-Tech Accents (`#0062FF`, `#00E5BE`, `#388BFD`)**: Modern signal cyan and precision tech blue.
-  - **Crisp Architectural Neutrals (`#FFFFFF`, `#F8FAFC`, `#F1F5F9`, `#E2E8F0`)**: Clean contrast and editorial legibility.
+- **Color Palette ("Architectural Steel & Sapphire"):**
+  - **Architectural Slate & Obsidian (`#0E1726`, `#121F33`, `#182842`)**: Calm, eye-comfortable, enterprise-grade dark foundations.
+  - **Executive Sapphire & Nordic Teal (`#1D5BD8`, `#0F766E`)**: Authoritative, trusted primary and secondary action tones.
+  - **Precision Sky & Ice Blue (`#38BDF8`, `#93C5FD`)**: Restrained technical highlights, status accents, and badges.
+  - **Cool Architectural Neutrals (`#FFFFFF`, `#F8FAFC`, `#F1F5F9`, `#E2E8F0`)**: Glare-free, high-legibility canvas surfaces.
+  - **Zero Neon / Zero Artificial Glow**: Strictly purged of fluorescent cyan, electric blues, and gaming halos.
 - **Bespoke NI Logo Mark:**
   - Original vector logo (`images/logo.svg`, `images/logo-light.svg`, and `images/favicon.svg`) featuring a custom geometric monogram with interconnected signal nodes and clear corporate wordmark.
 - **Bespoke Visual Vector Diagrams:**

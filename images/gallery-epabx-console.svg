@@ -2,14 +2,14 @@
   <rect width="600" height="420" rx="12" fill="#0A1426"/>
   <!-- Telephony Dispatch Console & Wall Server -->
   <g transform="translate(180, 150)">
-    <path d="M-120 -60 L120 -60 L145 90 L-145 90 Z" fill="#0E1E34" stroke="#00E5BE" stroke-width="1.8"/>
+    <path d="M-120 -60 L120 -60 L145 90 L-145 90 Z" fill="#0E1E34" stroke="#38BDF8" stroke-width="1.8"/>
     <!-- Multiple Display screens on operator desk -->
     <rect x="-110" y="-45" width="95" height="55" rx="4" fill="#060C17" stroke="#388BFD"/>
     <text x="-62" y="-28" fill="#388BFD" font-family="monospace" font-size="8" text-anchor="middle">ACTIVE CALLS: 08</text>
-    <text x="-62" y="-12" fill="#00E5BE" font-family="monospace" font-size="7.5" text-anchor="middle">TRUNK UTIL: 42%</text>
+    <text x="-62" y="-12" fill="#38BDF8" font-family="monospace" font-size="7.5" text-anchor="middle">TRUNK UTIL: 42%</text>
 
-    <rect x="15" y="-45" width="95" height="55" rx="4" fill="#060C17" stroke="#00E5BE"/>
-    <text x="62" y="-28" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">CAMPUS EXT 400</text>
+    <rect x="15" y="-45" width="95" height="55" rx="4" fill="#060C17" stroke="#38BDF8"/>
+    <text x="62" y="-28" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="middle">CAMPUS EXT 400</text>
     <text x="62" y="-12" fill="#E2E8F0" font-family="monospace" font-size="7.5" text-anchor="middle">IVR DEPLOYED</text>
 
     <!-- Keypad matrix -->
@@ -40,16 +40,16 @@
   <g transform="translate(460, 140)">
     <rect x="-70" y="-80" width="140" height="170" rx="8" fill="#0F1F38" stroke="#388BFD" stroke-width="1.5"/>
     <rect x="-60" y="-68" width="120" height="24" rx="3" fill="#060C17"/>
-    <circle cx="-42" cy="-56" r="3" fill="#00E5BE"/>
-    <text x="-30" y="-53" fill="#00E5BE" font-family="monospace" font-size="7.5">VOIP TRUNK ACT</text>
+    <circle cx="-42" cy="-56" r="3" fill="#38BDF8"/>
+    <text x="-30" y="-53" fill="#38BDF8" font-family="monospace" font-size="7.5">VOIP TRUNK ACT</text>
     <rect x="-60" y="-35" width="120" height="22" rx="2" fill="#142644"/>
     <text x="-52" y="-20" fill="#E2E8F0" font-family="monospace" font-size="7">EXTENSION BAY A</text>
     <rect x="-60" y="-8" width="120" height="22" rx="2" fill="#142644"/>
     <text x="-52" y="7" fill="#E2E8F0" font-family="monospace" font-size="7">EXTENSION BAY B</text>
     <rect x="-60" y="19" width="120" height="22" rx="2" fill="#142644"/>
     <text x="-52" y="34" fill="#E2E8F0" font-family="monospace" font-size="7">ANALOG TRUNK C</text>
-    <rect x="-60" y="46" width="120" height="28" rx="2" fill="#11223F" stroke="#00E5BE"/>
-    <text x="0" y="64" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">VOICE RECORDING ON</text>
+    <rect x="-60" y="46" width="120" height="28" rx="2" fill="#11223F" stroke="#38BDF8"/>
+    <text x="0" y="64" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="middle">VOICE RECORDING ON</text>
   </g>
 
   <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>

@@ -1,86 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
   <defs>
-    <linearGradient id="epabxBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1B33"/>
-      <stop offset="100%" stop-color="#070E1A"/>
-    </linearGradient>
-    <linearGradient id="voiceWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0062FF"/>
-      <stop offset="100%" stop-color="#00E5BE"/>
+    <linearGradient id="epabxBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="400" rx="16" fill="url(#epabxBg)"/>
+  <rect width="600" height="400" rx="16" fill="url(#epabxBgLight)" stroke="#CBD5E1" stroke-width="1.5"/>
 
   <!-- Left: IP-PBX Central Server -->
   <g transform="translate(160, 180)">
-    <rect x="-80" y="-100" width="160" height="180" rx="10" fill="#0C172B" stroke="#2563EB" stroke-width="1.8"/>
+    <rect x="-80" y="-100" width="160" height="180" rx="10" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.8"/>
     <!-- Ventilation & LED panel -->
-    <rect x="-70" y="-88" width="140" height="30" rx="4" fill="#060C17"/>
-    <circle cx="-50" cy="-73" r="3" fill="#00E5BE"/>
-    <circle cx="-38" cy="-73" r="3" fill="#388BFD"/>
-    <text x="50" y="-70" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="end">SYS ONLINE</text>
+    <rect x="-70" y="-88" width="140" height="30" rx="4" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="-50" cy="-73" r="3" fill="#059669"/>
+    <circle cx="-38" cy="-73" r="3" fill="#1D5BD8"/>
+    <text x="50" y="-70" fill="#1D5BD8" font-family="monospace" font-size="8" font-weight="700" text-anchor="end">SYS ONLINE</text>
     
     <!-- Extension Slot modules -->
-    <rect x="-70" y="-48" width="140" height="24" rx="3" fill="#142440" stroke="#1E3A6B"/>
-    <text x="-60" y="-32" fill="#E2E8F0" font-family="monospace" font-size="8">SLOT 01: FXS 16CH</text>
-    <rect x="-70" y="-18" width="140" height="24" rx="3" fill="#142440" stroke="#1E3A6B"/>
-    <text x="-60" y="-2" fill="#E2E8F0" font-family="monospace" font-size="8">SLOT 02: FXO TRUNK</text>
-    <rect x="-70" y="12" width="140" height="24" rx="3" fill="#142440" stroke="#1E3A6B"/>
-    <text x="-60" y="28" fill="#E2E8F0" font-family="monospace" font-size="8">SLOT 03: SIP SERVER</text>
-    <rect x="-70" y="42" width="140" height="24" rx="3" fill="#142440" stroke="#1E3A6B"/>
-    <text x="-60" y="58" fill="#00E5BE" font-family="monospace" font-size="8">SLOT 04: IVR / REC</text>
+    <rect x="-70" y="-48" width="140" height="24" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="-60" y="-32" fill="#334155" font-family="monospace" font-size="8" font-weight="600">SLOT 01: FXS 16CH</text>
+    <rect x="-70" y="-18" width="140" height="24" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="-60" y="-2" fill="#334155" font-family="monospace" font-size="8" font-weight="600">SLOT 02: FXO TRUNK</text>
+    <rect x="-70" y="12" width="140" height="24" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="-60" y="28" fill="#1D5BD8" font-family="monospace" font-size="8" font-weight="700">SLOT 03: SIP SERVER</text>
+    <rect x="-70" y="42" width="140" height="24" rx="3" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="-60" y="58" fill="#0F766E" font-family="monospace" font-size="8" font-weight="700">SLOT 04: IVR / REC</text>
   </g>
 
   <!-- Right: Digital Executive Desk Phone & Intercom Extensions -->
   <g transform="translate(420, 175)">
     <!-- Main Console Base -->
-    <path d="M-90 -50 L90 -50 L105 75 L-105 75 Z" fill="#0D182B" stroke="#388BFD" stroke-width="1.8"/>
+    <path d="M-90 -50 L90 -50 L105 75 L-105 75 Z" fill="#FFFFFF" stroke="#1D5BD8" stroke-width="1.8"/>
     
     <!-- LCD Display -->
-    <rect x="-70" y="-40" width="80" height="50" rx="4" fill="#050E1C" stroke="#00E5BE" stroke-width="1"/>
-    <text x="-60" y="-22" fill="#00E5BE" font-family="monospace" font-size="7">EXT 101: ADMIN</text>
-    <text x="-60" y="-10" fill="#93C5FD" font-family="monospace" font-size="7">CALL ROUTE: READY</text>
-    <text x="-60" y="2" fill="#64748B" font-family="monospace" font-size="6.5">INTERCOM ACTIVE</text>
+    <rect x="-70" y="-40" width="80" height="50" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+    <text x="-60" y="-22" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">EXT 101: ADMIN</text>
+    <text x="-60" y="-10" fill="#059669" font-family="monospace" font-size="7" font-weight="700">CALL ROUTE: READY</text>
+    <text x="-60" y="2" fill="#475569" font-family="monospace" font-size="6.5">INTERCOM ACTIVE</text>
 
     <!-- Keypad Matrix -->
-    <g fill="#1F3458">
+    <g fill="#F1F5F9" stroke="#CBD5E1">
       <rect x="-70" y="18" width="22" height="14" rx="2"/><rect x="-42" y="18" width="22" height="14" rx="2"/><rect x="-14" y="18" width="22" height="14" rx="2"/>
       <rect x="-70" y="36" width="22" height="14" rx="2"/><rect x="-42" y="36" width="22" height="14" rx="2"/><rect x="-14" y="36" width="22" height="14" rx="2"/>
       <rect x="-70" y="54" width="22" height="14" rx="2"/><rect x="-42" y="54" width="22" height="14" rx="2"/><rect x="-14" y="54" width="22" height="14" rx="2"/>
     </g>
 
     <!-- Speed Dial DSS Keys -->
-    <g fill="#11223F">
-      <rect x="20" y="-40" width="65" height="18" rx="2" stroke="#1E3A6B"/><text x="25" y="-28" fill="#93C5FD" font-family="monospace" font-size="7">PRINCIPAL</text>
-      <rect x="20" y="-18" width="65" height="18" rx="2" stroke="#1E3A6B"/><text x="25" y="-6" fill="#93C5FD" font-family="monospace" font-size="7">ACCOUNTS</text>
-      <rect x="20" y="4" width="65" height="18" rx="2" stroke="#1E3A6B"/><text x="25" y="16" fill="#93C5FD" font-family="monospace" font-size="7">SECURITY</text>
-      <rect x="20" y="26" width="65" height="18" rx="2" stroke="#1E3A6B"/><text x="25" y="38" fill="#93C5FD" font-family="monospace" font-size="7">GATE 1</text>
-      <rect x="20" y="48" width="65" height="18" rx="2" stroke="#1E3A6B"/><text x="25" y="60" fill="#93C5FD" font-family="monospace" font-size="7">CONFERENCE</text>
+    <g fill="#FFFFFF">
+      <rect x="20" y="-40" width="65" height="18" rx="2" stroke="#CBD5E1"/><text x="25" y="-28" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">PRINCIPAL</text>
+      <rect x="20" y="-18" width="65" height="18" rx="2" stroke="#CBD5E1"/><text x="25" y="-6" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">ACCOUNTS</text>
+      <rect x="20" y="4" width="65" height="18" rx="2" stroke="#CBD5E1"/><text x="25" y="16" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">SECURITY</text>
+      <rect x="20" y="26" width="65" height="18" rx="2" stroke="#CBD5E1"/><text x="25" y="38" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">GATE 1</text>
+      <rect x="20" y="48" width="65" height="18" rx="2" stroke="#CBD5E1"/><text x="25" y="60" fill="#1D5BD8" font-family="monospace" font-size="7" font-weight="700">CONFERENCE</text>
     </g>
 
     <!-- Audio Waveform Indicator -->
     <g transform="translate(0, -65)">
-      <rect x="-60" y="-4" width="120" height="16" rx="8" fill="#13233E" stroke="#00E5BE" stroke-width="0.8"/>
+      <rect x="-60" y="-4" width="120" height="16" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
       <!-- Audio bars -->
-      <rect x="-45" y="-1" width="3" height="10" rx="1.5" fill="#00E5BE"/>
-      <rect x="-35" y="-3" width="3" height="14" rx="1.5" fill="#00E5BE"/>
-      <rect x="-25" y="1" width="3" height="6" rx="1.5" fill="#00E5BE"/>
-      <rect x="-15" y="-4" width="3" height="16" rx="1.5" fill="#00E5BE"/>
-      <rect x="-5" y="-2" width="3" height="12" rx="1.5" fill="#00E5BE"/>
-      <rect x="5" y="-5" width="3" height="18" rx="1.5" fill="#00E5BE"/>
-      <rect x="15" y="-2" width="3" height="12" rx="1.5" fill="#00E5BE"/>
-      <rect x="25" y="0" width="3" height="8" rx="1.5" fill="#00E5BE"/>
-      <rect x="35" y="-4" width="3" height="16" rx="1.5" fill="#00E5BE"/>
-      <rect x="45" y="-1" width="3" height="10" rx="1.5" fill="#00E5BE"/>
+      <rect x="-45" y="-1" width="3" height="10" rx="1.5" fill="#1D5BD8"/>
+      <rect x="-35" y="-3" width="3" height="14" rx="1.5" fill="#1D5BD8"/>
+      <rect x="-25" y="1" width="3" height="6" rx="1.5" fill="#1D5BD8"/>
+      <rect x="-15" y="-4" width="3" height="16" rx="1.5" fill="#1D5BD8"/>
+      <rect x="-5" y="-2" width="3" height="12" rx="1.5" fill="#1D5BD8"/>
+      <rect x="5" y="-5" width="3" height="18" rx="1.5" fill="#1D5BD8"/>
+      <rect x="15" y="-2" width="3" height="12" rx="1.5" fill="#1D5BD8"/>
+      <rect x="25" y="0" width="3" height="8" rx="1.5" fill="#1D5BD8"/>
+      <rect x="35" y="-4" width="3" height="16" rx="1.5" fill="#1D5BD8"/>
+      <rect x="45" y="-1" width="3" height="10" rx="1.5" fill="#1D5BD8"/>
     </g>
   </g>
 
   <!-- Connection Link -->
-  <path d="M240 180 C280 180, 290 175, 315 175" stroke="url(#voiceWave)" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <path d="M240 180 C280 180, 290 175, 315 175" stroke="#1D5BD8" stroke-width="2.5" stroke-dasharray="5 3"/>
 
   <!-- Footer Banner -->
-  <rect x="30" y="340" width="540" height="38" rx="8" fill="#11223F" stroke="#1E3A66"/>
-  <text x="45" y="364" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">EPABX &amp; Communication Systems</text>
-  <text x="555" y="364" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">IP-PBX Servers • Intercom Consoles • Multi-Branch Voice</text>
+  <rect x="30" y="340" width="540" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="364" fill="#0F172A" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">EPABX &amp; Communication Systems</text>
+  <text x="555" y="364" fill="#1D5BD8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">IP-PBX Servers • Intercom Consoles • Multi-Branch Voice</text>
 </svg>
-

@@ -3,11 +3,11 @@
   <!-- Campus Auditorium Atrium with Video Wall & PA Speakers -->
   <g transform="translate(180, 160)">
     <!-- 136-Inch Video Wall Display -->
-    <rect x="-130" y="-110" width="260" height="170" rx="8" fill="#040914" stroke="#00E5BE" stroke-width="2"/>
+    <rect x="-130" y="-110" width="260" height="170" rx="8" fill="#040914" stroke="#38BDF8" stroke-width="2"/>
     <rect x="-122" y="-102" width="244" height="154" rx="4" fill="#0A2040"/>
     
     <!-- Signage Visual Graphics -->
-    <text x="0" y="-60" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="1">CAMPUS CENTRAL AUDITORIUM</text>
+    <text x="0" y="-60" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="1">CAMPUS CENTRAL AUDITORIUM</text>
     <rect x="-90" y="-45" width="180" height="2" fill="#388BFD"/>
     <text x="0" y="-28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Annual Technology &amp; Innovation Convocation</text>
     
@@ -16,7 +16,7 @@
     <text x="-55" y="30" fill="#94A3B8" font-family="monospace" font-size="7.5" text-anchor="middle">LATENCY: &lt;15ms</text>
 
     <rect x="5" y="-5" width="100" height="45" rx="4" fill="#0B172E" stroke="#1E3A6B"/>
-    <text x="55" y="14" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">AUDIO: MULTI-ZONE</text>
+    <text x="55" y="14" fill="#38BDF8" font-family="monospace" font-size="8" text-anchor="middle">AUDIO: MULTI-ZONE</text>
     <text x="55" y="30" fill="#94A3B8" font-family="monospace" font-size="7.5" text-anchor="middle">ZONE 1-4 ACTIVE</text>
 
     <!-- Wall Mount Frame Underneath -->
@@ -31,12 +31,12 @@
     <circle cx="0" cy="-60" r="10" fill="#152745" stroke="#64748B"/>
     <circle cx="0" cy="-30" r="10" fill="#152745" stroke="#64748B"/>
     <circle cx="0" cy="0" r="10" fill="#152745" stroke="#64748B"/>
-    <circle cx="0" cy="30" r="10" fill="#152745" stroke="#00E5BE"/>
-    <text x="0" y="76" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" text-anchor="middle">LINE ARRAY</text>
+    <circle cx="0" cy="30" r="10" fill="#152745" stroke="#38BDF8"/>
+    <text x="0" y="76" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" text-anchor="middle">LINE ARRAY</text>
   </g>
 
   <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>
   <text x="45" y="394" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Digital Signage Video Wall &amp; Multi-Zone Public Address</text>
-  <text x="555" y="394" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Auditorium &amp; Atrium Deployment</text>
+  <text x="555" y="394" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Auditorium &amp; Atrium Deployment</text>
 </svg>
 
