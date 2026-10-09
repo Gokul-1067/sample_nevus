@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" role="img" aria-label="Nevus Infocom Logo">
+  <defs>
+    <linearGradient id="niGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0062FF"/>
+      <stop offset="50%" stop-color="#00A3FF"/>
+      <stop offset="100%" stop-color="#00E5BE"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0062FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00E5BE" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Mark -->
+  <g transform="translate(4, 6)">
+    <!-- Circuit hex base -->
+    <rect x="0" y="0" width="52" height="52" rx="12" fill="#0B1528"/>
+    <rect x="1" y="1" width="50" height="50" rx="11" stroke="url(#niGrad)" stroke-width="1.5" stroke-opacity="0.4"/>
+    
+    <!-- Stylized N & I with interconnected node -->
+    <!-- N stem 1 -->
+    <rect x="11" y="13" width="5" height="26" rx="2.5" fill="#FFFFFF"/>
+    <!-- N diagonal -->
+    <path d="M14 15.5L28 36.5" stroke="url(#niGrad)" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- N stem 2 & node link -->
+    <rect x="26" y="13" width="5" height="26" rx="2.5" fill="#FFFFFF"/>
+    
+    <!-- I pillar with distinct tech cyan dot -->
+    <circle cx="39" cy="15" r="2.8" fill="#00E5BE"/>
+    <rect x="36.5" y="21" width="5" height="18" rx="2.5" fill="url(#niGrad)"/>
+    
+    <!-- Small tech pulse dot -->
+    <circle cx="21" cy="26" r="2" fill="#00E5BE"/>
+  </g>
+  
+  <!-- Company Name & Descriptor -->
+  <text x="68" y="32" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" letter-spacing="1.5" fill="#0B1528">
+    NEVUS<tspan fill="#0062FF">INFOCOM</tspan>
+  </text>
+  <text x="69" y="47" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="600" letter-spacing="2.2" fill="#4B5563">
+    SYSTEM INTEGRATION &amp; TECH SOLUTIONS
+  </text>
+  
+  <!-- Sub-indicator 22+ YRS -->
+  <rect x="264" y="19" width="50" height="18" rx="9" fill="#0B1528" fill-opacity="0.06"/>
+  <text x="289" y="32" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.5" fill="#0062FF" text-anchor="middle">
+    22+ YRS
+  </text>
+</svg>
+

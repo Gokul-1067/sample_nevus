@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <rect width="600" height="420" rx="12" fill="#0A1426"/>
+  <!-- Telephony Dispatch Console & Wall Server -->
+  <g transform="translate(180, 150)">
+    <path d="M-120 -60 L120 -60 L145 90 L-145 90 Z" fill="#0E1E34" stroke="#00E5BE" stroke-width="1.8"/>
+    <!-- Multiple Display screens on operator desk -->
+    <rect x="-110" y="-45" width="95" height="55" rx="4" fill="#060C17" stroke="#388BFD"/>
+    <text x="-62" y="-28" fill="#388BFD" font-family="monospace" font-size="8" text-anchor="middle">ACTIVE CALLS: 08</text>
+    <text x="-62" y="-12" fill="#00E5BE" font-family="monospace" font-size="7.5" text-anchor="middle">TRUNK UTIL: 42%</text>
+
+    <rect x="15" y="-45" width="95" height="55" rx="4" fill="#060C17" stroke="#00E5BE"/>
+    <text x="62" y="-28" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">CAMPUS EXT 400</text>
+    <text x="62" y="-12" fill="#E2E8F0" font-family="monospace" font-size="7.5" text-anchor="middle">IVR DEPLOYED</text>
+
+    <!-- Keypad matrix -->
+    <g fill="#1F3458">
+      <rect x="-105" y="25" width="25" height="15" rx="2"/><rect x="-72" y="25" width="25" height="15" rx="2"/><rect x="-39" y="25" width="25" height="15" rx="2"/>
+      <rect x="-105" y="48" width="25" height="15" rx="2"/><rect x="-72" y="48" width="25" height="15" rx="2"/><rect x="-39" y="48" width="25" height="15" rx="2"/>
+      <rect x="-105" y="70" width="25" height="15" rx="2"/><rect x="-72" y="70" width="25" height="15" rx="2"/><rect x="-39" y="70" width="25" height="15" rx="2"/>
+    </g>
+
+    <!-- Direct Station Selection (DSS) matrix -->
+    <g fill="#102340">
+      <rect x="5" y="25" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="42" y="25" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="79" y="25" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="5" y="42" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="42" y="42" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="79" y="42" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="5" y="59" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="42" y="59" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="79" y="59" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="5" y="76" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="42" y="76" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+      <rect x="79" y="76" width="32" height="12" rx="2" stroke="#1E3A6B"/>
+    </g>
+  </g>
+
+  <!-- Wall Mounted PBX Controller (Right) -->
+  <g transform="translate(460, 140)">
+    <rect x="-70" y="-80" width="140" height="170" rx="8" fill="#0F1F38" stroke="#388BFD" stroke-width="1.5"/>
+    <rect x="-60" y="-68" width="120" height="24" rx="3" fill="#060C17"/>
+    <circle cx="-42" cy="-56" r="3" fill="#00E5BE"/>
+    <text x="-30" y="-53" fill="#00E5BE" font-family="monospace" font-size="7.5">VOIP TRUNK ACT</text>
+    <rect x="-60" y="-35" width="120" height="22" rx="2" fill="#142644"/>
+    <text x="-52" y="-20" fill="#E2E8F0" font-family="monospace" font-size="7">EXTENSION BAY A</text>
+    <rect x="-60" y="-8" width="120" height="22" rx="2" fill="#142644"/>
+    <text x="-52" y="7" fill="#E2E8F0" font-family="monospace" font-size="7">EXTENSION BAY B</text>
+    <rect x="-60" y="19" width="120" height="22" rx="2" fill="#142644"/>
+    <text x="-52" y="34" fill="#E2E8F0" font-family="monospace" font-size="7">ANALOG TRUNK C</text>
+    <rect x="-60" y="46" width="120" height="28" rx="2" fill="#11223F" stroke="#00E5BE"/>
+    <text x="0" y="64" fill="#00E5BE" font-family="monospace" font-size="8" text-anchor="middle">VOICE RECORDING ON</text>
+  </g>
+
+  <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>
+  <text x="45" y="394" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Unified EPABX Communication &amp; Executive Intercom Hub</text>
+  <text x="555" y="394" fill="#388BFD" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Administrative Operations</text>
+</svg>
+

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <rect width="600" height="420" rx="12" fill="#0A1426"/>
+  <!-- Corporate Entrance Turnstile & Biometric Pedestal -->
+  <g transform="translate(100, 80)">
+    <!-- Flap Barrier Turnstile 1 -->
+    <rect width="80" height="230" rx="8" fill="#13233D" stroke="#388BFD" stroke-width="1.5"/>
+    <rect x="10" y="15" width="60" height="25" rx="3" fill="#060C17"/>
+    <circle cx="40" cy="27" r="4" fill="#00E5BE"/>
+    <!-- Glass Flap Barrier -->
+    <path d="M80 80 L180 80 L180 160 L80 160 Z" fill="#00E5BE" fill-opacity="0.15" stroke="#00E5BE" stroke-width="2"/>
+    <text x="130" y="125" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" text-anchor="middle">LANE 1</text>
+
+    <!-- Turnstile 2 -->
+    <g transform="translate(180, 0)">
+      <rect width="80" height="230" rx="8" fill="#13233D" stroke="#388BFD" stroke-width="1.5"/>
+      <rect x="10" y="15" width="60" height="25" rx="3" fill="#060C17"/>
+      <circle cx="40" cy="27" r="4" fill="#00E5BE"/>
+      <!-- Glass Flap Barrier 2 -->
+      <path d="M80 80 L180 80 L180 160 L80 160 Z" fill="#388BFD" fill-opacity="0.15" stroke="#388BFD" stroke-width="2"/>
+      <text x="130" y="125" fill="#388BFD" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" text-anchor="middle">LANE 2</text>
+    </g>
+
+    <!-- Turnstile 3 -->
+    <g transform="translate(360, 0)">
+      <rect width="80" height="230" rx="8" fill="#13233D" stroke="#388BFD" stroke-width="1.5"/>
+      <rect x="10" y="15" width="60" height="25" rx="3" fill="#060C17"/>
+      <circle cx="40" cy="27" r="4" fill="#00E5BE"/>
+    </g>
+  </g>
+
+  <!-- Wall Mounted Facial Verification Point -->
+  <g transform="translate(480, 50)">
+    <rect x="-35" y="0" width="70" height="110" rx="6" fill="#0E1E34" stroke="#00E5BE" stroke-width="1.2"/>
+    <circle cx="0" cy="20" r="10" fill="#050E1A" stroke="#00E5BE"/>
+    <circle cx="0" cy="20" r="3" fill="#00E5BE"/>
+    <rect x="-25" y="40" width="50" height="50" rx="3" fill="#060C17"/>
+    <circle cx="0" cy="65" r="12" stroke="#00E5BE" stroke-width="1" stroke-dasharray="2 2" fill="none"/>
+    <text x="0" y="102" fill="#00E5BE" font-family="monospace" font-size="7" text-anchor="middle">MATCH: 99.8%</text>
+  </g>
+
+  <!-- Ground Floor Reflected Grid -->
+  <g stroke="#1E3258" stroke-width="0.8" opacity="0.3">
+    <line x1="0" y1="330" x2="600" y2="330"/>
+  </g>
+  <rect x="30" y="375" width="540" height="30" rx="6" fill="#0F1E34"/>
+  <text x="45" y="394" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Multi-Lane Biometric Access &amp; Time-Attendance Portal</text>
+  <text x="555" y="394" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" text-anchor="end">Corporate &amp; Institutional Foyer</text>
+</svg>
+

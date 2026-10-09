@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" fill="none">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1528"/>
+      <stop offset="50%" stop-color="#112240"/>
+      <stop offset="100%" stop-color="#070E1A"/>
+    </linearGradient>
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0062FF"/>
+      <stop offset="100%" stop-color="#00E5BE"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="420" rx="16" fill="url(#archBg)"/>
+
+  <!-- Grid overlay -->
+  <g stroke="#1E3258" stroke-width="0.7" opacity="0.3">
+    <path d="M0 60h900 M0 140h900 M0 220h900 M0 300h900 M0 380h900"/>
+    <path d="M75 0v420 M225 0v420 M375 0v420 M525 0v420 M675 0v420 M825 0v420"/>
+  </g>
+
+  <!-- Title Banner -->
+  <text x="450" y="42" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="1">NEVUS INFOCOM — INTEGRATED SYSTEM TOPOLOGY</text>
+  <text x="450" y="58" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Seamless convergence of surveillance, networking, communications, biometrics, and backup continuity</text>
+
+  <!-- LAYER 1: Surveillance & Security (Left) -->
+  <g transform="translate(115, 180)">
+    <rect x="-85" y="-95" width="170" height="190" rx="10" fill="#0E1E38" stroke="#00E5BE" stroke-width="1.5"/>
+    <rect x="-75" y="-82" width="150" height="26" rx="4" fill="#071324"/>
+    <text x="0" y="-65" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">1. SURVEILLANCE</text>
+    
+    <g transform="translate(0, 10)">
+      <circle cx="-40" cy="-30" r="14" fill="#152745" stroke="#00E5BE"/>
+      <circle cx="-40" cy="-30" r="5" fill="#00E5BE"/>
+      <text x="-15" y="-26" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">IP Cameras</text>
+      
+      <rect x="-55" y="-5" width="110" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
+      <text x="0" y="11" fill="#94A3B8" font-family="monospace" font-size="8" text-anchor="middle">NVR / Storage Array</text>
+      
+      <rect x="-55" y="28" width="110" height="24" rx="3" fill="#13233D" stroke="#1E3A6B"/>
+      <text x="0" y="44" fill="#94A3B8" font-family="monospace" font-size="8" text-anchor="middle">Perimeter Alarms</text>
+    </g>
+  </g>
+
+  <!-- LAYER 2: Network Infrastructure (Center-Left) -->
+  <g transform="translate(325, 180)">
+    <rect x="-85" y="-95" width="170" height="190" rx="10" fill="#0E1E38" stroke="#388BFD" stroke-width="1.5"/>
+    <rect x="-75" y="-82" width="150" height="26" rx="4" fill="#071324"/>
+    <text x="0" y="-65" fill="#388BFD" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">2. NETWORK CORE</text>
+
+    <g transform="translate(0, 10)">
+      <rect x="-55" y="-40" width="110" height="24" rx="3" fill="#13233D" stroke="#388BFD"/>
+      <text x="0" y="-24" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">L3 Managed Switches</text>
+
+      <rect x="-55" y="-8" width="110" height="24" rx="3" fill="#13233D" stroke="#388BFD"/>
+      <text x="0" y="8" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">Cat6 / Fiber Cabling</text>
+
+      <rect x="-55" y="24" width="110" height="24" rx="3" fill="#13233D" stroke="#388BFD"/>
+      <text x="0" y="40" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">Wi-Fi 6 AP Matrix</text>
+    </g>
+  </g>
+
+  <!-- LAYER 3: Comms & Access (Center-Right) -->
+  <g transform="translate(535, 180)">
+    <rect x="-85" y="-95" width="170" height="190" rx="10" fill="#0E1E38" stroke="#00E5BE" stroke-width="1.5"/>
+    <rect x="-75" y="-82" width="150" height="26" rx="4" fill="#071324"/>
+    <text x="0" y="-65" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">3. VOICE &amp; ACCESS</text>
+
+    <g transform="translate(0, 10)">
+      <rect x="-55" y="-40" width="110" height="24" rx="3" fill="#13233D" stroke="#00E5BE"/>
+      <text x="0" y="-24" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">EPABX / IP Telephony</text>
+
+      <rect x="-55" y="-8" width="110" height="24" rx="3" fill="#13233D" stroke="#00E5BE"/>
+      <text x="0" y="8" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">Biometric Attendance</text>
+
+      <rect x="-55" y="24" width="110" height="24" rx="3" fill="#13233D" stroke="#00E5BE"/>
+      <text x="0" y="40" fill="#E2E8F0" font-family="monospace" font-size="8" text-anchor="middle">Commercial Signage</text>
+    </g>
+  </g>
+
+  <!-- LAYER 4: Backup & Continuity Vault (Right - Differentiator) -->
+  <g transform="translate(755, 180)">
+    <rect x="-95" y="-95" width="190" height="190" rx="10" fill="#0D243F" stroke="#38BDF8" stroke-width="1.8"/>
+    <rect x="-85" y="-82" width="170" height="26" rx="4" fill="#05172C"/>
+    <text x="0" y="-65" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="800" text-anchor="middle">4. CONTINUITY &amp; BACKUP</text>
+
+    <g transform="translate(0, 10)">
+      <rect x="-65" y="-40" width="130" height="24" rx="3" fill="#112B4C" stroke="#38BDF8"/>
+      <text x="0" y="-24" fill="#E0F2FE" font-family="monospace" font-size="8" text-anchor="middle">Scheduled Config Backups</text>
+
+      <rect x="-65" y="-8" width="130" height="24" rx="3" fill="#112B4C" stroke="#38BDF8"/>
+      <text x="0" y="8" fill="#E0F2FE" font-family="monospace" font-size="8" text-anchor="middle">Firmware Baseline Repos</text>
+
+      <rect x="-65" y="24" width="130" height="24" rx="3" fill="#112B4C" stroke="#38BDF8"/>
+      <text x="0" y="40" fill="#E0F2FE" font-family="monospace" font-size="8" text-anchor="middle">Rapid Restore Readiness</text>
+    </g>
+  </g>
+
+  <!-- Connective Arrows -->
+  <path d="M200 180 L240 180" stroke="url(#lineGrad1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 3"/>
+  <path d="M410 180 L450 180" stroke="url(#lineGrad1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 3"/>
+  <path d="M620 180 L660 180" stroke="url(#lineGrad1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 3"/>
+
+  <!-- Bottom Continuity Footnote -->
+  <rect x="50" y="340" width="800" height="46" rx="8" fill="#0F1F38" stroke="#1E3A66"/>
+  <text x="70" y="362" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Holistic Integration Philosophy:</text>
+  <text x="70" y="377" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Systems are deployed with structured cabling, calibrated hardware, and disciplined software/system backup practices to guarantee uninterrupted operations.</text>
+  <circle cx="810" cy="363" r="6" fill="#00E5BE"/>
+  <text x="795" y="367" fill="#00E5BE" font-family="monospace" font-size="9" text-anchor="end">22+ YRS EXPERTISE</text>
+</svg>
+

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="avBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1B33"/>
+      <stop offset="100%" stop-color="#070E1A"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#avBg)"/>
+
+  <!-- Left: Commercial Ultra-HD Digital Signage Display -->
+  <g transform="translate(190, 160)">
+    <!-- Thin Bezel Wall Mount Screen -->
+    <rect x="-110" y="-80" width="220" height="130" rx="6" fill="#040812" stroke="#388BFD" stroke-width="2"/>
+    <rect x="-104" y="-74" width="208" height="118" rx="3" fill="url(#screenGrad)"/>
+    
+    <!-- Signage Interface Elements -->
+    <rect x="-95" y="-65" width="80" height="18" rx="3" fill="#FFFFFF" fill-opacity="0.2"/>
+    <text x="-90" y="-52" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700">CAMPUS NOTICE</text>
+    
+    <!-- Dynamic Information Ticker -->
+    <rect x="-95" y="-38" width="190" height="40" rx="4" fill="#0B132B" fill-opacity="0.65"/>
+    <text x="-85" y="-22" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700">CAMPUS ANNOUNCEMENT</text>
+    <text x="-85" y="-8" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5">Annual Symposium &amp; Technology Exhibition</text>
+    
+    <!-- Split Schedule Widget -->
+    <rect x="-95" y="8" width="90" height="28" rx="3" fill="#0B132B" fill-opacity="0.5"/>
+    <text x="-85" y="24" fill="#E2E8F0" font-family="monospace" font-size="7">HALL A: LIVE</text>
+    
+    <rect x="5" y="8" width="90" height="28" rx="3" fill="#0B132B" fill-opacity="0.5"/>
+    <text x="15" y="24" fill="#E2E8F0" font-family="monospace" font-size="7">WEATHER: 28°C</text>
+
+    <!-- Signage Media Player Module -->
+    <rect x="-50" y="62" width="100" height="20" rx="3" fill="#13233D" stroke="#1E3A6B"/>
+    <text x="0" y="75" fill="#388BFD" font-family="monospace" font-size="7.5" text-anchor="middle">4K MEDIA PLAYER</text>
+    <circle cx="38" cy="72" r="2.5" fill="#00E5BE"/>
+  </g>
+
+  <!-- Right: Public Address & Audio Surveillance Speaker Systems -->
+  <g transform="translate(430, 160)">
+    <!-- PA Amplifier Rack Head -->
+    <rect x="-85" y="-80" width="170" height="60" rx="6" fill="#0F1F38" stroke="#00E5BE" stroke-width="1.2"/>
+    <rect x="-75" y="-70" width="150" height="18" rx="2" fill="#060C17"/>
+    <text x="-65" y="-57" fill="#00E5BE" font-family="monospace" font-size="8">PA-ZONE AMP 500W</text>
+    <circle cx="55" cy="-61" r="3" fill="#00E5BE"/>
+    
+    <!-- VU Meter / Audio LEDs -->
+    <g fill="#00E5BE">
+      <rect x="-75" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-63" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-51" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-39" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-27" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-15" y="-45" width="8" height="6" rx="1"/>
+      <rect x="-3" y="-45" width="8" height="6" rx="1"/>
+      <rect x="9" y="-45" width="8" height="6" rx="1" fill="#F59E0B"/>
+      <rect x="21" y="-45" width="8" height="6" rx="1" fill="#EF4444"/>
+    </g>
+
+    <!-- Commercial Ceiling / Horn Speakers -->
+    <g transform="translate(-40, 45)">
+      <!-- Flush Mount Ceiling Speaker -->
+      <circle cx="0" cy="0" r="32" fill="#152745" stroke="#388BFD" stroke-width="2"/>
+      <circle cx="0" cy="0" r="22" fill="#0D182B" stroke="#64748B"/>
+      <circle cx="0" cy="0" r="10" fill="#050C17"/>
+      <circle cx="0" cy="0" r="4" fill="#00E5BE"/>
+      <!-- Audio waves -->
+      <path d="M-42 0 A42 42 0 0 1 42 0" stroke="#00E5BE" stroke-width="1" stroke-dasharray="3 3"/>
+      <text x="0" y="46" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" text-anchor="middle">Ceiling Speaker</text>
+    </g>
+
+    <g transform="translate(45, 45)">
+      <!-- Long-throw Weatherproof Column / Horn -->
+      <path d="M-20 -25 L20 -35 L20 35 L-20 25 Z" fill="#152745" stroke="#00E5BE" stroke-width="1.5"/>
+      <rect x="-32" y="-12" width="12" height="24" rx="2" fill="#0D182B" stroke="#388BFD"/>
+      <text x="0" y="46" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" text-anchor="middle">Column PA</text>
+    </g>
+  </g>
+
+  <!-- Central Audio/Video Stream Line -->
+  <path d="M300 150 C330 150, 330 130, 345 130" stroke="#388BFD" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- Footer Banner -->
+  <rect x="30" y="340" width="540" height="38" rx="8" fill="#11223F" stroke="#1E3A66"/>
+  <text x="45" y="364" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Audio, Video &amp; Signage Solutions</text>
+  <text x="555" y="364" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">Digital Displays • PA Amplifiers • Multi-Zone Sound</text>
+</svg>
+

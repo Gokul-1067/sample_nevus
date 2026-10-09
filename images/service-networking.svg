@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="netBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1B33"/>
+      <stop offset="100%" stop-color="#060C18"/>
+    </linearGradient>
+    <linearGradient id="fiberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0062FF"/>
+      <stop offset="100%" stop-color="#00E5BE"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#netBg)"/>
+  
+  <!-- Subtle grid lines -->
+  <g stroke="#1E3258" stroke-width="0.8" opacity="0.25">
+    <path d="M50 0v400 M150 0v400 M250 0v400 M350 0v400 M450 0v400 M550 0v400"/>
+    <path d="M0 70h600 M0 140h600 M0 210h600 M0 280h600 M0 350h600"/>
+  </g>
+
+  <!-- Server Rack Enclosure (Left-Center) -->
+  <g transform="translate(180, 180)">
+    <!-- 42U Enclosure Frame -->
+    <rect x="-110" y="-140" width="220" height="270" rx="8" fill="#0B1322" stroke="#2563EB" stroke-width="1.8"/>
+    <!-- Glass/Mesh Front Vent Trim -->
+    <rect x="-100" y="-130" width="200" height="250" rx="4" fill="#060A12" stroke="#1E293B"/>
+
+    <!-- Patch Panel (Top) -->
+    <rect x="-92" y="-120" width="184" height="26" rx="3" fill="#111C2E" stroke="#334155"/>
+    <g fill="#00E5BE">
+      <circle cx="-80" cy="-107" r="2.5"/><circle cx="-68" cy="-107" r="2.5"/><circle cx="-56" cy="-107" r="2.5"/>
+      <circle cx="-44" cy="-107" r="2.5"/><circle cx="-32" cy="-107" r="2.5"/><circle cx="-20" cy="-107" r="2.5"/>
+      <circle cx="20" cy="-107" r="2.5"/><circle cx="32" cy="-107" r="2.5"/><circle cx="44" cy="-107" r="2.5"/>
+      <circle cx="56" cy="-107" r="2.5"/><circle cx="68" cy="-107" r="2.5"/><circle cx="80" cy="-107" r="2.5"/>
+    </g>
+
+    <!-- Managed Switch 48-Port (Unit 2) -->
+    <rect x="-92" y="-86" width="184" height="34" rx="3" fill="#13233D" stroke="#0062FF" stroke-width="1.2"/>
+    <text x="-84" y="-64" fill="#388BFD" font-family="monospace" font-size="8">L3-SW-CORE</text>
+    <g fill="#388BFD">
+      <circle cx="-15" cy="-73" r="2"/><circle cx="-5" cy="-73" r="2"/><circle cx="5" cy="-73" r="2"/>
+      <circle cx="15" cy="-73" r="2"/><circle cx="25" cy="-73" r="2"/><circle cx="35" cy="-73" r="2"/>
+      <circle cx="45" cy="-73" r="2"/><circle cx="55" cy="-73" r="2"/><circle cx="65" cy="-73" r="2"/>
+      <circle cx="75" cy="-73" r="2"/>
+    </g>
+    <g fill="#00E5BE">
+      <circle cx="-15" cy="-63" r="2"/><circle cx="-5" cy="-63" r="2"/><circle cx="5" cy="-63" r="2"/>
+      <circle cx="15" cy="-63" r="2"/><circle cx="25" cy="-63" r="2"/><circle cx="35" cy="-63" r="2"/>
+      <circle cx="45" cy="-63" r="2"/><circle cx="55" cy="-63" r="2"/><circle cx="65" cy="-63" r="2"/>
+      <circle cx="75" cy="-63" r="2"/>
+    </g>
+
+    <!-- Second PoE Switch (Unit 3) -->
+    <rect x="-92" y="-44" width="184" height="34" rx="3" fill="#13233D" stroke="#00E5BE" stroke-width="1.2"/>
+    <text x="-84" y="-22" fill="#00E5BE" font-family="monospace" font-size="8">POE+ ACCESS</text>
+    <g fill="#00E5BE">
+      <circle cx="-15" cy="-31" r="2"/><circle cx="-5" cy="-31" r="2"/><circle cx="5" cy="-31" r="2"/>
+      <circle cx="15" cy="-31" r="2"/><circle cx="25" cy="-31" r="2"/><circle cx="35" cy="-31" r="2"/>
+      <circle cx="45" cy="-31" r="2"/><circle cx="55" cy="-31" r="2"/><circle cx="65" cy="-31" r="2"/>
+      <circle cx="75" cy="-31" r="2"/>
+    </g>
+
+    <!-- Fiber Distribution Hub (Unit 4) -->
+    <rect x="-92" y="-2" width="184" height="26" rx="3" fill="#0F1A2D" stroke="#334155"/>
+    <text x="-84" y="15" fill="#E2E8F0" font-family="monospace" font-size="8">FIBER LIU 10G</text>
+    <circle cx="50" cy="11" r="3" fill="#00E5BE"/>
+    <circle cx="65" cy="11" r="3" fill="#388BFD"/>
+    
+    <!-- Enterprise Gateway / Router (Unit 5) -->
+    <rect x="-92" y="32" width="184" height="34" rx="3" fill="#13233D" stroke="#60A5FA"/>
+    <text x="-84" y="54" fill="#93C5FD" font-family="monospace" font-size="8">SEC-GATEWAY</text>
+    <circle cx="55" cy="49" r="4" fill="#00E5BE"/>
+    <circle cx="70" cy="49" r="4" fill="#3B82F6"/>
+
+    <!-- Rack Mount UPS / Power Unit -->
+    <rect x="-92" y="74" width="184" height="38" rx="3" fill="#0E1626" stroke="#475569"/>
+    <text x="-84" y="98" fill="#94A3B8" font-family="monospace" font-size="8">ONLINE UPS 3kVA</text>
+    <rect x="30" y="86" width="45" height="12" rx="2" fill="#059669"/>
+    <text x="52" y="95" fill="#FFFFFF" font-family="monospace" font-size="7" text-anchor="middle">100% AC</text>
+  </g>
+
+  <!-- Right: Wireless AP & Structured Distribution -->
+  <g transform="translate(450, 120)">
+    <!-- Ceiling AP Visual -->
+    <ellipse cx="0" cy="0" rx="50" ry="24" fill="#152745" stroke="#00E5BE" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="30" ry="14" fill="#0C182B"/>
+    <circle cx="0" cy="0" r="4" fill="#00E5BE"/>
+    
+    <!-- Wi-Fi Waves -->
+    <path d="M-65 0 C-65 -25, 65 -25, 65 0" stroke="#00E5BE" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7"/>
+    <path d="M-85 0 C-85 -40, 85 -40, 85 0" stroke="#388BFD" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+    
+    <text x="0" y="44" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Wi-Fi 6 Enterprise AP</text>
+    <text x="0" y="58" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Seamless Campus Roaming</text>
+  </g>
+
+  <!-- Right Bottom: Structured Cabling Bundle -->
+  <g transform="translate(450, 260)">
+    <rect x="-70" y="-35" width="140" height="70" rx="8" fill="#10203B" stroke="#1E3A66"/>
+    <!-- Cable Bundles -->
+    <path d="M-50 -10 C-20 -10, 20 -10, 50 -10" stroke="#0062FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-50 0 C-20 0, 20 0, 50 0" stroke="#00E5BE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-50 10 C-20 10, 20 10, 50 10" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="28" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Cat6 / Fiber Cabling</text>
+  </g>
+
+  <!-- Interconnecting Fiber Cable -->
+  <path d="M290 140 C340 140, 370 120, 400 120" stroke="url(#fiberGlow)" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M290 230 C340 230, 360 260, 380 260" stroke="url(#fiberGlow)" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- Footer Banner -->
+  <rect x="30" y="340" width="540" height="38" rx="8" fill="#11223F" stroke="#1E3A66"/>
+  <text x="45" y="364" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Networking Infrastructure</text>
+  <text x="555" y="364" fill="#00E5BE" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" text-anchor="end">Rack Enclosures • Managed Switches • Routers &amp; Wi-Fi</text>
+</svg>
+
