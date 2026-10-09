@@ -974,7 +974,7 @@ ul, ol {
 
 .feature-image-wrapper {
   position: relative;
-  background: var(--color-navy-darker);
+  background: var(--color-surface-soft);
   height: 220px;
   overflow: hidden;
 }
@@ -983,10 +983,23 @@ ul, ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   transition: transform var(--transition-slow);
 }
 
 .feature-image-card:hover .feature-image-wrapper img {
+  transform: scale(1.04);
+}
+
+.tech-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transition-normal);
+}
+
+.tech-card:hover img {
   transform: scale(1.04);
 }
 
@@ -1151,10 +1164,46 @@ ul, ol {
   flex-shrink: 0;
 }
 
-.continuity-visual img {
-  border-radius: var(--radius-lg);
+.continuity-visual {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
   border: 1px solid var(--color-border-subtle);
-  box-shadow: var(--shadow-sm);
+  background: var(--color-surface-soft);
+}
+
+.continuity-visual img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--radius-xl);
+  transition: transform var(--transition-slow);
+}
+
+.continuity-visual:hover img {
+  transform: scale(1.03);
+}
+
+.service-detail-visual {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-border-subtle);
+}
+
+.service-detail-visual .section-feature-img,
+.section-feature-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transition-slow);
+}
+
+.service-detail-visual:hover .section-feature-img {
+  transform: scale(1.03);
 }
 
 /* ==========================================================================
@@ -1662,6 +1711,13 @@ ul, ol {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+  }
+  .continuity-visual img,
+  .section-feature-img {
+    height: 250px;
+  }
+  .tech-card img {
+    height: 180px;
   }
 }
 
